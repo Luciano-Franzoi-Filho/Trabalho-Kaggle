@@ -38,7 +38,7 @@ def main():
 
         # Etapa 4: Treinamento do Modelo
         print("Iniciando o pipeline...")
-        run_pipeline(dataset_path, 0.28) # minimo possivel é 0.28 
+        run_pipeline(dataset_path, 0.3) # minimo possivel é 0.3 
         print("Pipeline concluído com sucesso!")
 
     # except Exception as e:

@@ -1,0 +1,33 @@
+definição de arquitetura de software, uma forma de organizar um sistema ....
+
+tipos de arquitetura, camadas, hexagonal, mvc .....
+
+vantagens e desvantagens entre as arquiteturas 
+
+estudar o EDA
+
+Ver sobre outliers
+
+
+teste supervisionado e não supervisionado (ver o que é PCA)
+
+exemplos de algoritmo
+
+supervisionado
+
+regressao linear
+arvore de decisão
+redes neurais
+
+não supervisionado
+
+kmeans
+dbscan
+analise de componentes principais
+
+ambientes virtuais
+saber a definição 
+
+
+comandos de git 
+

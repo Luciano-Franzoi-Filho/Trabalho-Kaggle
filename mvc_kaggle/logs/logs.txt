@@ -1,0 +1,396 @@
+2025-03-30 20:11:22,834 - INFO - Baixando dataset rohanrao/formula-1-world-championship-1950-2020 para mvc_kaggle/model/dataset...
+2025-03-30 20:11:26,792 - INFO - Download concluído e arquivos extraídos com sucesso!
+2025-03-30 20:11:27,664 - INFO - Arquivos carregados com sucesso!
+2025-03-30 20:11:27,666 - INFO - Iniciando o processamento dos datasets...
+2025-03-30 20:11:29,334 - INFO - Dataset final salvo com sucesso!
+2025-03-30 20:11:29,334 - INFO - Processamento concluído com sucesso!
+2025-03-31 19:34:54,811 - INFO - Baixando dataset rohanrao/formula-1-world-championship-1950-2020 para mvc_kaggle/model/dataset...
+2025-03-31 19:35:17,076 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)'))': /kaggle-data-sets/468218/10606304/bundle/archive.zip?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gcp-kaggle-com%40kaggle-161607.iam.gserviceaccount.com%2F20250331%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20250331T223504Z&X-Goog-Expires=259200&X-Goog-SignedHeaders=host&X-Goog-Signature=64cc493e2e5f850da5536bc6181a3baffa63735cb429eb061674d7ca4da2d72ccfc3aaa8ea7dd04b938f07020ead2b1545784a7d23449036c525cac3ace08a10a2414d21d1ab7b9a07a4efdb5d9e1956ff14259136d1fba9c2eb3dc482d4ae17b40fa595fd02e9651ce07eb4d14d5cc60337bc5c0daed30c33f3af31c292a18c1343d43cd4b37769e4ea0804ea8e604a96c80080204189b0c1f29d3bb91aadf2c11fee396d966c606014bdcc7dcd9eb7ee34ee3e7e47a6ff8fadb698ff0f0c06718650051eb68860e252e9f473e1113f65d6a99f92d0386f686b161ed7a2785ba13c69be67999d312a58b96fca46968873fc2fa72d141c4a2c89d6a3fe2d70ef
+2025-03-31 19:35:27,422 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /kaggle-data-sets/468218/10606304/bundle/archive.zip?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gcp-kaggle-com%40kaggle-161607.iam.gserviceaccount.com%2F20250331%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20250331T223504Z&X-Goog-Expires=259200&X-Goog-SignedHeaders=host&X-Goog-Signature=64cc493e2e5f850da5536bc6181a3baffa63735cb429eb061674d7ca4da2d72ccfc3aaa8ea7dd04b938f07020ead2b1545784a7d23449036c525cac3ace08a10a2414d21d1ab7b9a07a4efdb5d9e1956ff14259136d1fba9c2eb3dc482d4ae17b40fa595fd02e9651ce07eb4d14d5cc60337bc5c0daed30c33f3af31c292a18c1343d43cd4b37769e4ea0804ea8e604a96c80080204189b0c1f29d3bb91aadf2c11fee396d966c606014bdcc7dcd9eb7ee34ee3e7e47a6ff8fadb698ff0f0c06718650051eb68860e252e9f473e1113f65d6a99f92d0386f686b161ed7a2785ba13c69be67999d312a58b96fca46968873fc2fa72d141c4a2c89d6a3fe2d70ef
+2025-03-31 19:35:37,644 - ERROR - Erro ao processar o dataset: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /kaggle-data-sets/468218/10606304/bundle/archive.zip?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gcp-kaggle-com%40kaggle-161607.iam.gserviceaccount.com%2F20250331%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20250331T223504Z&X-Goog-Expires=259200&X-Goog-SignedHeaders=host&X-Goog-Signature=64cc493e2e5f850da5536bc6181a3baffa63735cb429eb061674d7ca4da2d72ccfc3aaa8ea7dd04b938f07020ead2b1545784a7d23449036c525cac3ace08a10a2414d21d1ab7b9a07a4efdb5d9e1956ff14259136d1fba9c2eb3dc482d4ae17b40fa595fd02e9651ce07eb4d14d5cc60337bc5c0daed30c33f3af31c292a18c1343d43cd4b37769e4ea0804ea8e604a96c80080204189b0c1f29d3bb91aadf2c11fee396d966c606014bdcc7dcd9eb7ee34ee3e7e47a6ff8fadb698ff0f0c06718650051eb68860e252e9f473e1113f65d6a99f92d0386f686b161ed7a2785ba13c69be67999d312a58b96fca46968873fc2fa72d141c4a2c89d6a3fe2d70ef (Caused by ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+2025-03-31 19:35:57,939 - INFO - Baixando dataset rohanrao/formula-1-world-championship-1950-2020 para mvc_kaggle/model/dataset...
+2025-03-31 19:36:06,346 - INFO - Download concluído e arquivos extraídos com sucesso!
+2025-03-31 19:36:07,286 - INFO - Arquivos carregados com sucesso!
+2025-03-31 19:36:07,286 - INFO - Iniciando o processamento dos datasets...
+2025-03-31 19:36:08,847 - INFO - Dataset final salvo com sucesso!
+2025-03-31 19:36:08,847 - INFO - Processamento concluído com sucesso!
+2025-04-07 18:54:25,889 - INFO - Pandas backend loaded 2.1.4
+2025-04-07 18:54:25,966 - INFO - Numpy backend loaded 1.26.4
+2025-04-07 18:54:25,969 - INFO - Pyspark backend NOT loaded
+2025-04-07 18:54:25,970 - INFO - Python backend loaded
+2025-04-07 18:54:28,903 - INFO - Baixando dataset rohanrao/formula-1-world-championship-1950-2020 para mvc_kaggle/model/Data/Raw...
+2025-04-07 18:54:36,283 - INFO - Download concluído e arquivos extraídos com sucesso!
+2025-04-07 18:54:37,210 - INFO - Arquivos carregados com sucesso!
+2025-04-07 18:54:37,211 - INFO - Iniciando o processamento dos datasets...
+2025-04-07 18:54:38,702 - INFO - Dataset final salvo com sucesso!
+2025-04-07 18:54:38,703 - INFO - Processamento concluído com sucesso!
+2025-04-07 18:58:22,846 - INFO - Pandas backend loaded 2.1.4
+2025-04-07 18:58:22,867 - INFO - Numpy backend loaded 1.26.4
+2025-04-07 18:58:22,870 - INFO - Pyspark backend NOT loaded
+2025-04-07 18:58:22,871 - INFO - Python backend loaded
+2025-04-07 18:58:24,535 - INFO - Baixando dataset rohanrao/formula-1-world-championship-1950-2020 para mvc_kaggle/model/Data/Raw...
+2025-04-07 18:58:29,038 - INFO - Download concluído e arquivos extraídos com sucesso!
+2025-04-07 18:58:30,022 - INFO - Arquivos carregados com sucesso!
+2025-04-07 18:58:30,033 - INFO - Iniciando o processamento dos datasets...
+2025-04-07 18:58:31,591 - INFO - Dataset final salvo com sucesso!
+2025-04-07 18:58:31,594 - INFO - Processamento concluído com sucesso!
+2025-04-07 18:58:31,622 - INFO - Iniciando análises para o diretório: mvc_kaggle/model/Data/Processed...
+2025-04-07 18:58:31,787 - INFO - Processando DatasetF1processado (26759 linhas, 22 colunas)
+2025-04-07 18:59:09,922 - INFO - Relatório AutoViz gerado para DatasetF1processado.
+2025-04-07 19:01:16,307 - INFO - Relatório YData Profiling salvo em mvc_kaggle/view/relatorios\ydata_DatasetF1processado.html.
+2025-04-07 19:01:30,996 - INFO - D-Tale iniciado para DatasetF1processado.
+2025-04-07 19:01:30,998 - INFO - Todas as análises foram concluídas com sucesso!
+2025-04-07 19:12:49,604 - INFO - Pandas backend loaded 2.1.4
+2025-04-07 19:12:49,631 - INFO - Numpy backend loaded 1.26.4
+2025-04-07 19:12:49,634 - INFO - Pyspark backend NOT loaded
+2025-04-07 19:12:49,634 - INFO - Python backend loaded
+2025-04-07 19:12:51,222 - INFO - Baixando dataset rohanrao/formula-1-world-championship-1950-2020 para mvc_kaggle/model/Data/Raw...
+2025-04-07 19:12:55,798 - INFO - Download concluído e arquivos extraídos com sucesso!
+2025-04-07 19:12:56,713 - INFO - Arquivos carregados com sucesso!
+2025-04-07 19:12:56,716 - INFO - Iniciando o processamento dos datasets...
+2025-04-07 19:12:58,187 - INFO - Dataset final salvo com sucesso!
+2025-04-07 19:12:58,191 - INFO - Processamento concluído com sucesso!
+2025-04-07 19:12:58,223 - INFO - Iniciando análises para o diretório: mvc_kaggle/model/Data/Processed...
+2025-04-07 19:12:58,372 - INFO - Processando DatasetF1processado (26759 linhas, 22 colunas)
+2025-04-07 19:13:35,246 - INFO - Relatório AutoViz gerado para DatasetF1processado.
+2025-04-07 19:15:42,551 - INFO - Relatório YData Profiling salvo em mvc_kaggle/view/relatorios\ydata_DatasetF1processado.html.
+2025-04-07 19:15:57,554 - INFO - D-Tale iniciado para DatasetF1processado.
+2025-04-07 19:15:57,584 - INFO - Todas as análises foram concluídas com sucesso!
+2025-04-07 19:19:31,865 - INFO - Pandas backend loaded 2.1.4
+2025-04-07 19:19:31,887 - INFO - Numpy backend loaded 1.26.4
+2025-04-07 19:19:31,889 - INFO - Pyspark backend NOT loaded
+2025-04-07 19:19:31,890 - INFO - Python backend loaded
+2025-04-07 19:19:33,581 - INFO - Baixando dataset rohanrao/formula-1-world-championship-1950-2020 para mvc_kaggle/model/Data/Raw...
+2025-04-07 19:19:37,878 - INFO - Download concluído e arquivos extraídos com sucesso!
+2025-04-07 19:19:38,847 - INFO - Arquivos carregados com sucesso!
+2025-04-07 19:19:38,848 - INFO - Iniciando o processamento dos datasets...
+2025-04-07 19:19:40,395 - INFO - Dataset final salvo com sucesso!
+2025-04-07 19:19:40,396 - INFO - Processamento concluído com sucesso!
+2025-04-07 19:19:40,429 - INFO - Iniciando análises para o diretório: mvc_kaggle/model/Data/Processed...
+2025-04-07 19:19:40,570 - INFO - Processando DatasetF1processado (26759 linhas, 22 colunas)
+2025-04-07 19:20:33,164 - INFO - Relatório AutoViz gerado para DatasetF1processado.
+2025-04-07 19:22:43,952 - INFO - Relatório YData Profiling salvo em mvc_kaggle/view/relatorios\ydata_DatasetF1processado.html.
+2025-04-07 19:22:58,750 - INFO - D-Tale iniciado para DatasetF1processado.
+2025-04-07 19:22:58,751 - INFO - Todas as análises foram concluídas com sucesso!
+2025-04-07 19:24:35,638 - INFO - Pandas backend loaded 2.1.4
+2025-04-07 19:24:35,656 - INFO - Numpy backend loaded 1.26.4
+2025-04-07 19:24:35,658 - INFO - Pyspark backend NOT loaded
+2025-04-07 19:24:35,659 - INFO - Python backend loaded
+2025-04-07 19:24:37,253 - INFO - Baixando dataset rohanrao/formula-1-world-championship-1950-2020 para mvc_kaggle/model/Data/Raw...
+2025-04-07 19:24:41,388 - INFO - Download concluído e arquivos extraídos com sucesso!
+2025-04-07 19:24:42,412 - INFO - Arquivos carregados com sucesso!
+2025-04-07 19:24:42,414 - INFO - Iniciando o processamento dos datasets...
+2025-04-07 19:24:43,905 - INFO - Dataset final salvo com sucesso!
+2025-04-07 19:24:43,908 - INFO - Processamento concluído com sucesso!
+2025-04-07 19:24:43,945 - INFO - Iniciando análises para o diretório: mvc_kaggle/model/Data/Processed...
+2025-04-07 19:24:44,083 - INFO - Processando DatasetF1processado (26759 linhas, 22 colunas)
+2025-04-07 19:25:20,896 - INFO - Relatório AutoViz gerado para DatasetF1processado.
+2025-04-07 19:27:25,600 - INFO - Relatório YData Profiling salvo em mvc_kaggle/view/relatorios\ydata_DatasetF1processado.html.
+2025-04-07 19:27:40,328 - INFO - D-Tale iniciado para DatasetF1processado.
+2025-04-07 19:27:40,331 - INFO - Todas as análises foram concluídas com sucesso!
+2025-04-07 19:36:48,253 - INFO - Pandas backend loaded 2.1.4
+2025-04-07 19:36:48,278 - INFO - Numpy backend loaded 1.26.4
+2025-04-07 19:36:48,282 - INFO - Pyspark backend NOT loaded
+2025-04-07 19:36:48,283 - INFO - Python backend loaded
+2025-04-07 19:36:49,921 - INFO - Baixando dataset rohanrao/formula-1-world-championship-1950-2020 para mvc_kaggle/model/Data/Raw...
+2025-04-07 19:36:54,600 - INFO - Download concluído e arquivos extraídos com sucesso!
+2025-04-07 19:36:55,651 - INFO - Arquivos carregados com sucesso!
+2025-04-07 19:36:55,652 - INFO - Iniciando o processamento dos datasets...
+2025-04-07 19:36:57,382 - INFO - Dataset final salvo com sucesso!
+2025-04-07 19:36:57,383 - INFO - Processamento concluído com sucesso!
+2025-04-07 19:36:57,416 - INFO - Iniciando análises para o diretório: mvc_kaggle/model/Data/Processed...
+2025-04-07 19:36:57,565 - INFO - Processando DatasetF1processado (26759 linhas, 22 colunas)
+2025-04-07 19:37:36,222 - INFO - Relatório AutoViz gerado para DatasetF1processado.
+2025-04-07 19:39:42,233 - INFO - Relatório YData Profiling salvo em mvc_kaggle/view/relatorios\ydata_DatasetF1processado.html.
+2025-04-07 19:39:56,735 - INFO - D-Tale iniciado para DatasetF1processado.
+2025-04-07 19:39:56,742 - INFO - Todas as análises foram concluídas com sucesso!
+2025-04-07 19:52:17,913 - INFO - Pandas backend loaded 2.1.4
+2025-04-07 19:52:17,934 - INFO - Numpy backend loaded 1.26.4
+2025-04-07 19:52:17,937 - INFO - Pyspark backend NOT loaded
+2025-04-07 19:52:17,939 - INFO - Python backend loaded
+2025-04-07 19:52:19,641 - INFO - Baixando dataset rohanrao/formula-1-world-championship-1950-2020 para mvc_kaggle/model/Data/Raw...
+2025-04-07 19:52:23,842 - INFO - Download concluído e arquivos extraídos com sucesso!
+2025-04-07 19:52:24,796 - INFO - Arquivos carregados com sucesso!
+2025-04-07 19:52:24,797 - INFO - Iniciando o processamento dos datasets...
+2025-04-07 19:52:26,220 - INFO - Dataset final salvo com sucesso!
+2025-04-07 19:52:26,222 - INFO - Processamento concluído com sucesso!
+2025-04-07 19:52:26,256 - INFO - Iniciando análises para o diretório: mvc_kaggle/model/Data/Processed...
+2025-04-07 19:52:26,416 - INFO - Processando DatasetF1processado (26759 linhas, 22 colunas)
+2025-04-07 19:53:05,465 - INFO - Relatório AutoViz gerado para DatasetF1processado.
+2025-04-07 19:55:13,857 - INFO - Relatório YData Profiling salvo em mvc_kaggle/view/relatorios\ydata_DatasetF1processado.html.
+2025-04-07 19:55:28,585 - INFO - D-Tale iniciado para DatasetF1processado.
+2025-04-07 19:55:28,587 - INFO - Todas as análises foram concluídas com sucesso!
+2025-04-07 20:00:59,853 - INFO - Pandas backend loaded 2.1.4
+2025-04-07 20:00:59,878 - INFO - Numpy backend loaded 1.26.4
+2025-04-07 20:00:59,880 - INFO - Pyspark backend NOT loaded
+2025-04-07 20:00:59,881 - INFO - Python backend loaded
+2025-04-07 20:01:20,400 - INFO - Pandas backend loaded 2.1.4
+2025-04-07 20:01:20,425 - INFO - Numpy backend loaded 1.26.4
+2025-04-07 20:01:20,429 - INFO - Pyspark backend NOT loaded
+2025-04-07 20:01:20,430 - INFO - Python backend loaded
+2025-04-07 20:01:22,362 - INFO - Baixando dataset rohanrao/formula-1-world-championship-1950-2020 para mvc_kaggle/model/Data/Raw...
+2025-04-07 20:01:28,926 - INFO - Download concluído e arquivos extraídos com sucesso!
+2025-04-07 20:01:29,824 - INFO - Arquivos carregados com sucesso!
+2025-04-07 20:01:29,826 - INFO - Iniciando o processamento dos datasets...
+2025-04-07 20:01:31,387 - INFO - Dataset final salvo com sucesso!
+2025-04-07 20:01:31,388 - INFO - Processamento concluído com sucesso!
+2025-04-07 20:02:51,520 - INFO - Pandas backend loaded 2.1.4
+2025-04-07 20:02:51,543 - INFO - Numpy backend loaded 1.26.4
+2025-04-07 20:02:51,545 - INFO - Pyspark backend NOT loaded
+2025-04-07 20:02:51,546 - INFO - Python backend loaded
+2025-04-07 20:02:53,155 - INFO - Baixando dataset rohanrao/formula-1-world-championship-1950-2020 para mvc_kaggle/model/Data/Raw...
+2025-04-07 20:02:58,560 - INFO - Download concluído e arquivos extraídos com sucesso!
+2025-04-07 20:02:59,463 - INFO - Arquivos carregados com sucesso!
+2025-04-07 20:02:59,465 - INFO - Iniciando o processamento dos datasets...
+2025-04-07 20:03:01,073 - INFO - Dataset final salvo com sucesso!
+2025-04-07 20:03:01,074 - INFO - Processamento concluído com sucesso!
+2025-04-07 20:03:50,789 - INFO - Pandas backend loaded 2.1.4
+2025-04-07 20:03:50,809 - INFO - Numpy backend loaded 1.26.4
+2025-04-07 20:03:50,835 - INFO - Pyspark backend NOT loaded
+2025-04-07 20:03:50,846 - INFO - Python backend loaded
+2025-04-07 20:03:52,548 - INFO - Baixando dataset rohanrao/formula-1-world-championship-1950-2020 para mvc_kaggle/model/Data/Raw...
+2025-04-07 20:04:00,763 - INFO - Download concluído e arquivos extraídos com sucesso!
+2025-04-07 20:04:01,714 - INFO - Arquivos carregados com sucesso!
+2025-04-07 20:04:01,715 - INFO - Iniciando o processamento dos datasets...
+2025-04-07 20:04:03,325 - INFO - Dataset final salvo com sucesso!
+2025-04-07 20:04:03,326 - INFO - Processamento concluído com sucesso!
+2025-04-07 21:18:01,428 - INFO - Pandas backend loaded 2.1.4
+2025-04-07 21:18:01,480 - INFO - Numpy backend loaded 1.26.4
+2025-04-07 21:18:01,483 - INFO - Pyspark backend NOT loaded
+2025-04-07 21:18:01,484 - INFO - Python backend loaded
+2025-04-07 21:18:04,058 - INFO - Baixando dataset rohanrao/formula-1-world-championship-1950-2020 para mvc_kaggle/model/Data/Raw...
+2025-04-07 21:18:07,458 - INFO - Download concluído e arquivos extraídos com sucesso!
+2025-04-07 21:18:08,231 - INFO - Arquivos carregados com sucesso!
+2025-04-07 21:18:08,232 - INFO - Iniciando o processamento dos datasets...
+2025-04-07 21:18:09,540 - INFO - Dataset final salvo com sucesso!
+2025-04-07 21:18:09,541 - INFO - Processamento concluído com sucesso!
+2025-04-07 21:19:45,981 - INFO - Pandas backend loaded 2.1.4
+2025-04-07 21:19:46,002 - INFO - Numpy backend loaded 1.26.4
+2025-04-07 21:19:46,005 - INFO - Pyspark backend NOT loaded
+2025-04-07 21:19:46,006 - INFO - Python backend loaded
+2025-04-07 21:19:47,682 - INFO - Baixando dataset rohanrao/formula-1-world-championship-1950-2020 para mvc_kaggle/model/Data/Raw...
+2025-04-07 21:19:50,256 - INFO - Download concluído e arquivos extraídos com sucesso!
+2025-04-07 21:19:51,022 - INFO - Arquivos carregados com sucesso!
+2025-04-07 21:19:51,023 - INFO - Iniciando o processamento dos datasets...
+2025-04-07 21:19:52,296 - INFO - Dataset final salvo com sucesso!
+2025-04-07 21:19:52,296 - INFO - Processamento concluído com sucesso!
+2025-04-07 21:22:03,120 - INFO - Pandas backend loaded 2.1.4
+2025-04-07 21:22:03,139 - INFO - Numpy backend loaded 1.26.4
+2025-04-07 21:22:03,141 - INFO - Pyspark backend NOT loaded
+2025-04-07 21:22:03,142 - INFO - Python backend loaded
+2025-04-07 21:23:11,617 - INFO - Pandas backend loaded 2.1.4
+2025-04-07 21:23:11,635 - INFO - Numpy backend loaded 1.26.4
+2025-04-07 21:23:11,637 - INFO - Pyspark backend NOT loaded
+2025-04-07 21:23:11,638 - INFO - Python backend loaded
+2025-04-07 21:24:12,755 - INFO - Pandas backend loaded 2.1.4
+2025-04-07 21:24:12,773 - INFO - Numpy backend loaded 1.26.4
+2025-04-07 21:24:12,775 - INFO - Pyspark backend NOT loaded
+2025-04-07 21:24:12,776 - INFO - Python backend loaded
+2025-04-07 21:25:59,116 - INFO - Pandas backend loaded 2.1.4
+2025-04-07 21:25:59,135 - INFO - Numpy backend loaded 1.26.4
+2025-04-07 21:25:59,138 - INFO - Pyspark backend NOT loaded
+2025-04-07 21:25:59,139 - INFO - Python backend loaded
+2025-04-07 21:28:32,763 - INFO - Pandas backend loaded 2.1.4
+2025-04-07 21:28:32,783 - INFO - Numpy backend loaded 1.26.4
+2025-04-07 21:28:32,785 - INFO - Pyspark backend NOT loaded
+2025-04-07 21:28:32,787 - INFO - Python backend loaded
+2025-04-07 21:30:46,909 - INFO - Pandas backend loaded 2.1.4
+2025-04-07 21:30:46,928 - INFO - Numpy backend loaded 1.26.4
+2025-04-07 21:30:46,931 - INFO - Pyspark backend NOT loaded
+2025-04-07 21:30:46,932 - INFO - Python backend loaded
+2025-04-07 21:31:22,514 - INFO - Pandas backend loaded 2.1.4
+2025-04-07 21:31:22,532 - INFO - Numpy backend loaded 1.26.4
+2025-04-07 21:31:22,534 - INFO - Pyspark backend NOT loaded
+2025-04-07 21:31:22,535 - INFO - Python backend loaded
+2025-04-07 21:32:52,185 - INFO - Pandas backend loaded 2.1.4
+2025-04-07 21:32:52,206 - INFO - Numpy backend loaded 1.26.4
+2025-04-07 21:32:52,208 - INFO - Pyspark backend NOT loaded
+2025-04-07 21:32:52,210 - INFO - Python backend loaded
+2025-04-07 21:34:03,562 - INFO - Pandas backend loaded 2.1.4
+2025-04-07 21:34:03,582 - INFO - Numpy backend loaded 1.26.4
+2025-04-07 21:34:03,584 - INFO - Pyspark backend NOT loaded
+2025-04-07 21:34:03,585 - INFO - Python backend loaded
+2025-04-07 21:35:45,770 - INFO - Pandas backend loaded 2.1.4
+2025-04-07 21:35:45,789 - INFO - Numpy backend loaded 1.26.4
+2025-04-07 21:35:45,791 - INFO - Pyspark backend NOT loaded
+2025-04-07 21:35:45,792 - INFO - Python backend loaded
+2025-04-14 18:54:28,884 - INFO - Pandas backend loaded 2.1.4
+2025-04-14 18:54:28,963 - INFO - Numpy backend loaded 1.26.4
+2025-04-14 18:54:28,966 - INFO - Pyspark backend NOT loaded
+2025-04-14 18:54:28,967 - INFO - Python backend loaded
+2025-04-14 19:00:47,464 - INFO - Baixando dataset rohanrao/formula-1-world-championship-1950-2020 para mvc_kaggle/model/Data/Raw...
+2025-04-14 19:00:50,697 - INFO - Download concluído e arquivos extraídos com sucesso!
+2025-04-14 19:00:51,677 - INFO - Arquivos carregados com sucesso!
+2025-04-14 19:00:51,678 - INFO - Iniciando o processamento dos datasets...
+2025-04-14 19:00:53,293 - INFO - Dataset final salvo com sucesso!
+2025-04-14 19:00:53,294 - INFO - Processamento concluído com sucesso!
+2025-04-14 19:04:04,722 - INFO - Pandas backend loaded 2.1.4
+2025-04-14 19:04:04,772 - INFO - Numpy backend loaded 1.26.4
+2025-04-14 19:04:04,838 - INFO - Pyspark backend NOT loaded
+2025-04-14 19:04:04,839 - INFO - Python backend loaded
+2025-04-14 19:05:03,093 - INFO - Pandas backend loaded 2.1.4
+2025-04-14 19:05:03,114 - INFO - Numpy backend loaded 1.26.4
+2025-04-14 19:05:03,116 - INFO - Pyspark backend NOT loaded
+2025-04-14 19:05:03,117 - INFO - Python backend loaded
+2025-04-14 19:07:08,238 - INFO - Pandas backend loaded 2.1.4
+2025-04-14 19:07:08,263 - INFO - Numpy backend loaded 1.26.4
+2025-04-14 19:07:08,265 - INFO - Pyspark backend NOT loaded
+2025-04-14 19:07:08,267 - INFO - Python backend loaded
+2025-04-14 19:19:09,215 - INFO - Pandas backend loaded 2.1.4
+2025-04-14 19:19:09,237 - INFO - Numpy backend loaded 1.26.4
+2025-04-14 19:19:09,245 - INFO - Pyspark backend NOT loaded
+2025-04-14 19:19:09,246 - INFO - Python backend loaded
+2025-04-14 19:20:56,138 - INFO - Pandas backend loaded 2.1.4
+2025-04-14 19:20:56,159 - INFO - Numpy backend loaded 1.26.4
+2025-04-14 19:20:56,162 - INFO - Pyspark backend NOT loaded
+2025-04-14 19:20:56,163 - INFO - Python backend loaded
+2025-04-14 19:24:00,138 - INFO - Pandas backend loaded 2.1.4
+2025-04-14 19:24:00,156 - INFO - Numpy backend loaded 1.26.4
+2025-04-14 19:24:00,159 - INFO - Pyspark backend NOT loaded
+2025-04-14 19:24:00,160 - INFO - Python backend loaded
+2025-04-14 19:26:21,943 - INFO - Pandas backend loaded 2.1.4
+2025-04-14 19:26:21,970 - INFO - Numpy backend loaded 1.26.4
+2025-04-14 19:26:21,973 - INFO - Pyspark backend NOT loaded
+2025-04-14 19:26:21,974 - INFO - Python backend loaded
+2025-04-14 19:27:22,345 - INFO - Pandas backend loaded 2.1.4
+2025-04-14 19:27:22,365 - INFO - Numpy backend loaded 1.26.4
+2025-04-14 19:27:22,368 - INFO - Pyspark backend NOT loaded
+2025-04-14 19:27:22,369 - INFO - Python backend loaded
+2025-04-14 19:31:21,986 - INFO - Pandas backend loaded 2.1.4
+2025-04-14 19:31:22,011 - INFO - Numpy backend loaded 1.26.4
+2025-04-14 19:31:22,027 - INFO - Pyspark backend NOT loaded
+2025-04-14 19:31:22,028 - INFO - Python backend loaded
+2025-04-14 19:32:12,549 - INFO - Pandas backend loaded 2.1.4
+2025-04-14 19:32:12,572 - INFO - Numpy backend loaded 1.26.4
+2025-04-14 19:32:12,575 - INFO - Pyspark backend NOT loaded
+2025-04-14 19:32:12,577 - INFO - Python backend loaded
+2025-04-14 19:35:05,303 - INFO - Pandas backend loaded 2.1.4
+2025-04-14 19:35:05,339 - INFO - Numpy backend loaded 1.26.4
+2025-04-14 19:35:05,345 - INFO - Pyspark backend NOT loaded
+2025-04-14 19:35:05,346 - INFO - Python backend loaded
+2025-04-14 19:40:15,167 - INFO - Baixando dataset rohanrao/formula-1-world-championship-1950-2020 para mvc_kaggle/model/Data/Raw...
+2025-04-14 19:40:18,127 - INFO - Download concluído e arquivos extraídos com sucesso!
+2025-04-14 19:40:19,236 - INFO - Arquivos carregados com sucesso!
+2025-04-14 19:40:19,239 - INFO - Iniciando o processamento dos datasets...
+2025-04-14 19:40:20,934 - INFO - Dataset final salvo com sucesso!
+2025-04-14 19:40:20,935 - INFO - Processamento concluído com sucesso!
+2025-04-14 19:41:17,108 - INFO - Pandas backend loaded 2.1.4
+2025-04-14 19:41:17,136 - INFO - Numpy backend loaded 1.26.4
+2025-04-14 19:41:17,140 - INFO - Pyspark backend NOT loaded
+2025-04-14 19:41:17,144 - INFO - Python backend loaded
+2025-04-14 19:55:32,913 - INFO - Pandas backend loaded 2.1.4
+2025-04-14 19:55:32,934 - INFO - Numpy backend loaded 1.26.4
+2025-04-14 19:55:32,937 - INFO - Pyspark backend NOT loaded
+2025-04-14 19:55:32,938 - INFO - Python backend loaded
+2025-04-14 19:56:41,882 - INFO - Pandas backend loaded 2.1.4
+2025-04-14 19:56:41,904 - INFO - Numpy backend loaded 1.26.4
+2025-04-14 19:56:41,906 - INFO - Pyspark backend NOT loaded
+2025-04-14 19:56:41,907 - INFO - Python backend loaded
+2025-04-14 19:57:16,375 - INFO - Pandas backend loaded 2.1.4
+2025-04-14 19:57:16,395 - INFO - Numpy backend loaded 1.26.4
+2025-04-14 19:57:16,398 - INFO - Pyspark backend NOT loaded
+2025-04-14 19:57:16,399 - INFO - Python backend loaded
+2025-04-14 19:59:53,320 - INFO - Pandas backend loaded 2.1.4
+2025-04-14 19:59:53,340 - INFO - Numpy backend loaded 1.26.4
+2025-04-14 19:59:53,343 - INFO - Pyspark backend NOT loaded
+2025-04-14 19:59:53,344 - INFO - Python backend loaded
+2025-04-14 20:01:02,828 - INFO - Pandas backend loaded 2.1.4
+2025-04-14 20:01:02,859 - INFO - Numpy backend loaded 1.26.4
+2025-04-14 20:01:02,874 - INFO - Pyspark backend NOT loaded
+2025-04-14 20:01:02,877 - INFO - Python backend loaded
+2025-04-14 20:02:59,331 - INFO - Pandas backend loaded 2.1.4
+2025-04-14 20:02:59,357 - INFO - Numpy backend loaded 1.26.4
+2025-04-14 20:02:59,360 - INFO - Pyspark backend NOT loaded
+2025-04-14 20:02:59,361 - INFO - Python backend loaded
+2025-04-14 20:03:31,587 - INFO - Pandas backend loaded 2.1.4
+2025-04-14 20:03:31,606 - INFO - Numpy backend loaded 1.26.4
+2025-04-14 20:03:31,610 - INFO - Pyspark backend NOT loaded
+2025-04-14 20:03:31,611 - INFO - Python backend loaded
+2025-04-14 20:04:09,152 - INFO - Pandas backend loaded 2.1.4
+2025-04-14 20:04:09,177 - INFO - Numpy backend loaded 1.26.4
+2025-04-14 20:04:09,182 - INFO - Pyspark backend NOT loaded
+2025-04-14 20:04:09,184 - INFO - Python backend loaded
+2025-04-14 20:04:32,867 - INFO - Pandas backend loaded 2.1.4
+2025-04-14 20:04:32,890 - INFO - Numpy backend loaded 1.26.4
+2025-04-14 20:04:32,893 - INFO - Pyspark backend NOT loaded
+2025-04-14 20:04:32,895 - INFO - Python backend loaded
+2025-04-14 20:04:55,940 - INFO - Pandas backend loaded 2.1.4
+2025-04-14 20:04:55,966 - INFO - Numpy backend loaded 1.26.4
+2025-04-14 20:04:55,969 - INFO - Pyspark backend NOT loaded
+2025-04-14 20:04:55,970 - INFO - Python backend loaded
+2025-04-14 20:05:27,432 - INFO - Pandas backend loaded 2.1.4
+2025-04-14 20:05:27,463 - INFO - Numpy backend loaded 1.26.4
+2025-04-14 20:05:27,466 - INFO - Pyspark backend NOT loaded
+2025-04-14 20:05:27,466 - INFO - Python backend loaded
+2025-04-14 20:28:45,054 - INFO - Pandas backend loaded 2.1.4
+2025-04-14 20:28:45,074 - INFO - Numpy backend loaded 1.26.4
+2025-04-14 20:28:45,078 - INFO - Pyspark backend NOT loaded
+2025-04-14 20:28:45,079 - INFO - Python backend loaded
+2025-04-14 20:34:06,330 - INFO - Pandas backend loaded 2.1.4
+2025-04-14 20:34:06,362 - INFO - Numpy backend loaded 1.26.4
+2025-04-14 20:34:06,367 - INFO - Pyspark backend NOT loaded
+2025-04-14 20:34:06,368 - INFO - Python backend loaded
+2025-04-14 20:34:08,210 - INFO - Baixando dataset rohanrao/formula-1-world-championship-1950-2020 para mvc_kaggle/model/Data/Raw...
+2025-04-14 20:34:11,269 - INFO - Download concluído e arquivos extraídos com sucesso!
+2025-04-14 20:34:12,156 - INFO - Arquivos carregados com sucesso!
+2025-04-14 20:34:12,159 - INFO - Iniciando o processamento dos datasets...
+2025-04-14 20:34:14,024 - INFO - Dataset final salvo com sucesso!
+2025-04-14 20:34:14,025 - INFO - Processamento concluído com sucesso!
+2025-04-14 20:34:14,059 - INFO - Iniciando análises para o diretório: mvc_kaggle/model/Data/Processed...
+2025-04-14 20:34:14,279 - INFO - Processando DatasetF1processado (26759 linhas, 15 colunas)
+2025-04-14 20:34:41,184 - INFO - Relatório AutoViz gerado para DatasetF1processado.
+2025-04-14 20:36:59,669 - INFO - Relatório YData Profiling salvo em mvc_kaggle/view/relatorios\ydata_DatasetF1processado.html.
+2025-04-14 20:37:14,213 - INFO - D-Tale iniciado para DatasetF1processado.
+2025-04-14 20:37:14,215 - INFO - Processando DatasetF1prvdsvsvocessado (26759 linhas, 15 colunas)
+2025-04-14 20:37:39,986 - INFO - Relatório AutoViz gerado para DatasetF1prvdsvsvocessado.
+2025-04-14 20:39:52,006 - INFO - Relatório YData Profiling salvo em mvc_kaggle/view/relatorios\ydata_DatasetF1prvdsvsvocessado.html.
+2025-04-14 20:39:58,528 - INFO - D-Tale iniciado para DatasetF1prvdsvsvocessado.
+2025-04-14 20:39:58,529 - INFO - Todas as análises foram concluídas com sucesso!
+2025-04-14 20:47:01,692 - INFO - Pandas backend loaded 2.1.4
+2025-04-14 20:47:01,748 - INFO - Numpy backend loaded 1.26.4
+2025-04-14 20:47:01,751 - INFO - Pyspark backend NOT loaded
+2025-04-14 20:47:01,751 - INFO - Python backend loaded
+2025-04-14 20:47:04,425 - INFO - Baixando dataset rohanrao/formula-1-world-championship-1950-2020 para mvc_kaggle/model/Data/Raw...
+2025-04-14 20:47:08,620 - INFO - Download concluído e arquivos extraídos com sucesso!
+2025-04-14 20:47:09,605 - INFO - Arquivos carregados com sucesso!
+2025-04-14 20:47:09,606 - INFO - Iniciando o processamento dos datasets...
+2025-04-14 20:47:11,318 - INFO - Dataset final salvo com sucesso!
+2025-04-14 20:47:11,320 - INFO - Processamento concluído com sucesso!
+2025-04-14 20:47:11,349 - INFO - Iniciando análises para o diretório: mvc_kaggle/model/Data/Processed...
+2025-04-14 20:47:11,458 - INFO - Processando DatasetF1processado (26759 linhas, 15 colunas)
+2025-04-14 20:47:35,603 - INFO - Relatório AutoViz gerado para DatasetF1processado.
+2025-04-14 20:49:46,784 - INFO - Relatório YData Profiling salvo em mvc_kaggle/view/relatorios\ydata_DatasetF1processado.html.
+2025-04-14 20:50:01,309 - INFO - D-Tale iniciado para DatasetF1processado.
+2025-04-14 20:50:01,319 - INFO - Todas as análises foram concluídas com sucesso!
+2025-04-14 21:15:21,673 - INFO - Pandas backend loaded 2.1.4
+2025-04-14 21:15:21,722 - INFO - Numpy backend loaded 1.26.4
+2025-04-14 21:15:21,725 - INFO - Pyspark backend NOT loaded
+2025-04-14 21:15:21,726 - INFO - Python backend loaded
+2025-04-14 21:15:23,611 - INFO - Baixando dataset rohanrao/formula-1-world-championship-1950-2020 para mvc_kaggle/model/Data/Raw...
+2025-04-14 21:15:33,136 - INFO - Download concluído e arquivos extraídos com sucesso!
+2025-04-14 21:15:34,088 - INFO - Arquivos carregados com sucesso!
+2025-04-14 21:15:34,089 - INFO - Iniciando o processamento dos datasets...
+2025-04-14 21:15:35,711 - INFO - Dataset final salvo com sucesso!
+2025-04-14 21:15:35,712 - INFO - Processamento concluído com sucesso!
+2025-04-14 21:15:35,747 - INFO - Iniciando análises para o diretório: mvc_kaggle/model/Data/Processed...
+2025-04-14 21:15:35,867 - INFO - Processando DatasetF1processado (26759 linhas, 15 colunas)
+2025-04-14 21:16:08,545 - INFO - Relatório AutoViz gerado para DatasetF1processado.
+2025-04-14 21:18:47,883 - INFO - Relatório YData Profiling salvo em mvc_kaggle/view/relatorios\ydata_DatasetF1processado.html.
+2025-04-14 21:19:02,672 - INFO - D-Tale iniciado para DatasetF1processado.
+2025-04-14 21:19:02,674 - INFO - Todas as análises foram concluídas com sucesso!
+2025-04-14 21:59:25,473 - INFO - Pandas backend loaded 2.1.4
+2025-04-14 21:59:25,504 - INFO - Numpy backend loaded 1.26.4
+2025-04-14 21:59:25,506 - INFO - Pyspark backend NOT loaded
+2025-04-14 21:59:25,507 - INFO - Python backend loaded
+2025-04-14 21:59:27,448 - INFO - Baixando dataset rohanrao/formula-1-world-championship-1950-2020 para mvc_kaggle/model/Data/Raw...
+2025-04-14 21:59:41,839 - INFO - Download concluído e arquivos extraídos com sucesso!
+2025-04-14 21:59:42,665 - INFO - Arquivos carregados com sucesso!
+2025-04-14 21:59:42,665 - INFO - Iniciando o processamento dos datasets...
+2025-04-14 21:59:43,971 - INFO - Dataset final salvo com sucesso!
+2025-04-14 21:59:43,972 - INFO - Processamento concluído com sucesso!
+2025-04-14 21:59:43,999 - INFO - Iniciando análises para o diretório: mvc_kaggle/model/Data/Processed...
+2025-04-14 21:59:44,098 - INFO - Processando DatasetF1processado (26759 linhas, 15 colunas)
+2025-04-14 22:00:10,404 - INFO - Relatório AutoViz gerado para DatasetF1processado.
+2025-04-14 22:02:07,763 - ERROR - Erro ao gerar relatório YData para DatasetF1processado: [Errno 22] Invalid argument: 'mvc_kaggle\\view\\relatorios\\ydata_DatasetF1processado.html'
+2025-04-14 22:02:22,413 - INFO - D-Tale iniciado para DatasetF1processado.
+2025-04-14 22:02:22,414 - INFO - Todas as análises foram concluídas com sucesso!

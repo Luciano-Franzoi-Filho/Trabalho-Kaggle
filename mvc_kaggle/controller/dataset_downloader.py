@@ -47,6 +47,57 @@ def convert_time_to_milliseconds(time_str):
         return None  # Retorna None para valores inválidos
     except ValueError:
         return None  # Retorna None para valores inválidos
+    
+def ajustar_pontos(results):
+    """
+    Corrige a pontuação para:
+    - Corridas até 2009, aplicando a pontuação padrão da FIA
+    - Corridas específicas com pontuação errada (Abu Dhabi 2014 e Bélgica 2021)
+    """
+
+    pontos_por_posicao = {
+        1: 25,
+        2: 18,
+        3: 15,
+        4: 12,
+        5: 10,
+        6: 8,
+        7: 6,
+        8: 4,
+        9: 2,
+        10: 1
+    }
+
+    # Máscara para exceções específicas
+    mask_abu_dhabi = (
+        (results['year'] == 2014) &
+        (results['name_circuits'].str.strip() == 'Yas Marina Circuit')
+    )
+
+    mask_belgica = (
+        (results['year'] == 2021) &
+        (results['name_circuits'].str.strip() == 'Circuit de Spa-Francorchamps')
+    )
+
+    # Máscara para anos até 2009
+    mask_ate_2009 = results['year'] <= 2009
+
+    # Combina todas as condições que precisam correção
+    mask_corrigir = mask_abu_dhabi | mask_belgica | mask_ate_2009
+
+    # Corrigir pontuação conforme posição
+    def corrigir_pontos(row):
+        pos = row['position']
+        if pd.notna(pos) and str(pos).isdigit():
+            pos_int = int(pos)
+            if pos_int in pontos_por_posicao:
+                return pontos_por_posicao[pos_int]
+        return row['points']  # mantém valor original se não for elegível
+
+    # Aplica a correção
+    results.loc[mask_corrigir, 'points'] = results[mask_corrigir].apply(corrigir_pontos, axis=1)
+
+    return results
 
 def ajustar_datasets(arquivos):
     try:
@@ -110,6 +161,9 @@ def ajustar_datasets(arquivos):
             'q1': 'first', 'q2': 'first', 'q3': 'first'
         }).reset_index()
         results = results.merge(qualifying, on="raceId", how="left")
+
+        # Ajustar os pontos com base na posição e ano
+        results = ajustar_pontos(results)
 
         # Converter tempos para milissegundos nas colunas relevantes
         for col in ['fastestLapTime', 'q1', 'q2', 'q3']:

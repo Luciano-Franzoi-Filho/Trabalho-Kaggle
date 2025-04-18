@@ -1,9 +1,0 @@
-pegar o model e voltar ele para fazer o shap como era originalmente
-
-depois fazer todas essas analises de predição de vitorio no variable selection
-
-
-ver o variable selection para voltar ele para a versão original e fazer ele funcionar para meu dataset
-
-depois de tudo pegar e criar outro arquivo que vai fazer uma machine learning com a base de dados para prever
-o campeão de 2025, fazer um dataset com as 2 corrida que ja teve esse ano para usar de padrao 

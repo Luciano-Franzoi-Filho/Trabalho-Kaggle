@@ -1,140 +1,3 @@
-def ajustar_pontos(results):
-    """
-    Atualiza a coluna 'points' com base na posição e ano, de acordo com a tabela de pontos.
-    Aplica exceções para Abu Dhabi 2014 e Bélgica 2021.
-    """
-    # Tabela de pontos para as 10 primeiras posições
-    pontos_por_posicao = {
-        1: 25,
-        2: 18,
-        3: 15,
-        4: 12,
-        5: 10,
-        6: 8,
-        7: 6,
-        8: 4,
-        9: 2,
-        10: 1
-    }
-
-    # Definir as corridas excepcionais
-    corridas_excepcionais = {
-        ('Abu Dhabi', 2014, 'Yas Marina Circuit'),
-        ('Bélgica', 2021, 'Circuit de Spa-Francorchamps')
-    }
-
-    # Atualizar a coluna 'points' com base na posição
-    def calcular_pontos(row):
-        if row['position'] in pontos_por_posicao:
-            return pontos_por_posicao[row['position']]
-        return 0  # Para posições maiores que 10 ou valores inválidos de posição
-    
-    # Aplicar a mudança para corridas anteriores a 2009, incluindo 2009
-    results['points'] = results.apply(
-        lambda row: calcular_pontos(row) if row['year'] <= 2009 or
-        (row['year'], row['name_circuits']) in corridas_excepcionais
-        else row['points'], axis=1
-    )
-    
-    return results
-
-
-def ajustar_datasets(arquivos):
-    try:
-        required_files = ['races', 'results', 'drivers', 'constructors', 'circuits', 'status', 'qualifying']
-        for file in required_files:
-            if file not in arquivos:
-                raise FileNotFoundError(f"Arquivo necessário '{file}.csv' não encontrado.")
-
-        # Substituir '\N' por NaN em todos os DataFrames
-        for key in arquivos:
-            arquivos[key].replace(r'\\N', pd.NA, inplace=True, regex=True)
-
-        # Converter colunas de IDs para numéricas
-        for df_name in required_files:
-            df = arquivos[df_name]
-            for col in ['raceId', 'driverId', 'constructorId', 'circuitId', 'statusId']:
-                if col in df.columns:
-                    df[col] = pd.to_numeric(df[col], errors='coerce')
-
-        # Relacionar tabelas
-        races = arquivos['races'].merge(
-            arquivos['circuits'][['circuitId', 'name', 'country']],
-            on="circuitId", how="left", suffixes=("_gp", "_circuit")
-        )
-        races.rename(columns={'name_circuit': 'name_circuits'}, inplace=True)
-
-        # Adicionar tempos de treino, classificação e ano da tabela 'races' ao 'results'
-        results = arquivos['results'].merge(
-            races[['raceId', 'year', 'name_circuits', 'country', 'fp1_time', 'fp2_time', 'fp3_time', 'quali_time', 'sprint_time']],
-            on="raceId", how="left"
-        )
-
-        # Relacionar com drivers para obter o número do piloto
-        if 'number' in arquivos['drivers'].columns:
-            results = results.merge(
-                arquivos['drivers'][['driverId', 'number', 'driverRef', 'code', 'nationality', 'dob']],
-                on="driverId", how="left"
-            )
-
-            if 'number_y' in results.columns:
-                results.rename(columns={'number_y': 'number_drivers', 'nationality': 'nationality_driver'}, inplace=True)
-
-        # Relacionar com constructors
-        results = results.merge(
-            arquivos['constructors'][['constructorId', 'name', 'nationality']],
-            on="constructorId", how="left"
-        )
-        results.rename(columns={'name': 'name_constructors', 'nationality': 'nationality_constructors'}, inplace=True)
-
-        # Relacionar com status
-        results = results.merge(
-            arquivos['status'][['statusId', 'status']],
-            on="statusId", how="left"
-        )
-
-        # Adicionar tempos de classificação (q1, q2, q3) da tabela 'qualifying'
-        qualifying = arquivos['qualifying'].groupby('raceId').agg({
-            'q1': 'first', 'q2': 'first', 'q3': 'first'
-        }).reset_index()
-        results = results.merge(qualifying, on="raceId", how="left")
-
-        # Converter tempos para milissegundos nas colunas relevantes
-        for col in ['fastestLapTime', 'q1', 'q2', 'q3']:
-            if col in results.columns:
-                results[col] = results[col].apply(convert_time_to_milliseconds)
-
-        # Preencher valores nulos com 0.0 nas colunas de tempo
-        tempo_cols = ['fastestLapTime', 'fastestLapSpeed', 'q1', 'q2', 'q3']
-        for col in tempo_cols:
-            if col in results.columns:
-                results[col] = results[col].fillna(0.0)
-
-        # Ajustar os pontos com base na posição e ano
-        results = ajustar_pontos(results)
-
-        # Substituir valores nulos em 'position' por "-1" na tabela correta (results)
-        if 'position' in results.columns:
-            results['position'] = results['position'].fillna(-1).astype(int).astype(str)
-        else:
-            logger.warning("A coluna 'position' não foi encontrada em 'results'.")
-
-        # Definir colunas finais
-        colunas_finais = [
-            'grid', 'position', 'points', 'year', 'name_circuits',
-            'driverRef','dob', 'name_constructors', 
-            'status', 'regulamento', 
-            'fastestLapTime','fastestLapSpeed','q1', 'q2', 'q3'
-        ]
-
-        results = results[colunas_finais]
-
-        return results
-    except Exception as e:
-        logger.error(f"Erro ao ajustar os datasets: {e}")
-        raise
-
-
 Usar o pycaret para selecionar as variáveis automaticamente 
 
 
@@ -145,30 +8,6 @@ ver o variable selection para voltar ele para a versão original e fazer ele fun
 
 depois de tudo pegar e criar outro arquivo que vai fazer uma machine learning com a base de dados para prever
 o campeão de 2025, fazer um dataset com as 2 corrida que ja teve esse ano para usar de padrao 
-
-
-Na Fórmula 1, os pontos são distribuídos entre os primeiros colocados de uma corrida,
- de acordo com a seguinte tabela: 
-1º lugar: 25 pontos
-2º lugar: 18 pontos
-3º lugar: 15 pontos
-4º lugar: 12 pontos
-5º lugar: 10 pontos
-6º lugar: 8 pontos
-7º lugar: 6 pontos
-8º lugar: 4 pontos
-9º lugar: 2 pontos
-10º lugar: 1 ponto
-
-faça um outro dataset que pegue como referencia a coluna position e faça substituir 
-o valor em points com base nessa tabela, se o position for 1 no points tem que ter 25 ,
- se for 2 18 , se for 3 15 ..... dessa forma até o 10, pra baixo de 10 tem que ser tudo 0 
-pegue tambem a coluna year faça essas mudanças para para antes de 2009, incluindo 2009
-de 2010 para cima não precisa fazer as mudanças
-com excessão de Abu Dhabi de 2014 e Bélgica de 2021 essas duas corridas vai 
-ter que ser feito essa mudanças nas pontuaçoes pegue a coluna year e procure o name_circuits 
-Circuit de Spa-Francorchamps para belgica 
-Yas Marina Circuit para abu dhabi 
 
 
 fazer o variable selection funcionar da forma original dele
@@ -245,3 +84,41 @@ Posição no grid (baseado em 'grid')
 Essa análise ajudará a otimizar o modelo de aprendizado de máquina, fornecendo uma visão 
 mais precisa e detalhada sobre as chances de cada piloto e equipe durante uma temporada de F1.
 faça todas as alteraçoes necessarias
+
+
+
+
+🔍 Como interpretar:
+Se a linha de tendência estiver descendo da esquerda para a direita, significa que:
+
+Pilotos mais jovens tendem a ter posições melhores.
+
+Se estiver subindo, então:
+
+Pilotos mais velhos tendem a ir melhor.
+
+Se for quase reta, idade não afeta muito a posição.
+
+
+📊 Análise dos seus modelos:
+✅ Gradient Boosting: R² = 1.0000
+Perfeito no treino → provavelmente overfitting (decorou os dados)
+
+✅ AdaBoost: R² = 0.9989
+Quase perfeito → também provável overfitting
+
+❌ LightGBM: R² = 0.0000
+Modelo não aprendeu nada no treino (erro na configuração ou dados mal processados)
+
+Pode ter tido problema com dados categóricos mal codificados, valores faltando ou hiperparâmetros inadequados
+
+⚠️ Random Forest: R² = 0.9660
+Muito bom, mas também perto do overfitting
+
+Porém, mais confiável que os dois anteriores
+
+🚨 SVM: R² = -0.0438
+Modelo está pior que simplesmente prever a média dos pontos
+
+Sinal de que a SVM não está se ajustando bem aos dados (possivelmente por escalonamento, distribuição, ou hiperparâmetros ruins)
+

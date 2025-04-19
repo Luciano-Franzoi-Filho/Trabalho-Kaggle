@@ -216,14 +216,6 @@ def ajustar_datasets(arquivos):
             'fastestLapTime','fastestLapSpeed','q1', 'q2', 'q3'
         ]
 
-        # colunas_finais = [
-        #     'raceId', 'grid', 'position', 'points', 'year', 'name_circuits',
-        #     'country', 'driverRef','number_drivers', 'code', 
-        #     'nationality_driver', 'dob', 'name_constructors', 
-        #     'nationality_constructors','status', 'regulamento', 
-        #     'fastestLapTime','fastestLapSpeed', 'rank','q1', 'q2', 'q3'
-        # ]
-
         results = results[colunas_finais]
 
         return results

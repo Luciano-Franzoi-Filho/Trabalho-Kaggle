@@ -560,3 +560,59 @@
 2025-04-18 00:54:25,957 - INFO - Numpy backend loaded 1.26.4
 2025-04-18 00:54:25,959 - INFO - Pyspark backend NOT loaded
 2025-04-18 00:54:25,960 - INFO - Python backend loaded
+2025-04-18 01:14:25,923 - INFO - Pandas backend loaded 2.1.4
+2025-04-18 01:14:25,945 - INFO - Numpy backend loaded 1.26.4
+2025-04-18 01:14:25,949 - INFO - Pyspark backend NOT loaded
+2025-04-18 01:14:25,950 - INFO - Python backend loaded
+2025-04-18 01:15:52,620 - INFO - Pandas backend loaded 2.1.4
+2025-04-18 01:15:52,640 - INFO - Numpy backend loaded 1.26.4
+2025-04-18 01:15:52,643 - INFO - Pyspark backend NOT loaded
+2025-04-18 01:15:52,650 - INFO - Python backend loaded
+2025-04-19 12:50:42,258 - INFO - Pandas backend loaded 2.1.4
+2025-04-19 12:50:42,321 - INFO - Numpy backend loaded 1.26.4
+2025-04-19 12:50:42,324 - INFO - Pyspark backend NOT loaded
+2025-04-19 12:50:42,325 - INFO - Python backend loaded
+2025-04-19 12:50:47,440 - INFO - Baixando dataset rohanrao/formula-1-world-championship-1950-2020 para mvc_kaggle/model/Data/Raw...
+2025-04-19 12:50:49,704 - INFO - Download concluído e arquivos extraídos com sucesso!
+2025-04-19 12:50:50,511 - INFO - Arquivos carregados com sucesso!
+2025-04-19 12:50:50,512 - INFO - Iniciando o processamento dos datasets...
+2025-04-19 12:50:52,075 - INFO - Dataset final salvo com sucesso!
+2025-04-19 12:50:52,076 - INFO - Processamento concluído com sucesso!
+2025-04-19 12:50:52,099 - INFO - Iniciando análises para o diretório: mvc_kaggle/model/Data/Processed...
+2025-04-19 12:50:52,194 - INFO - Processando DatasetF1processado (26759 linhas, 15 colunas)
+2025-04-19 12:51:13,237 - INFO - Relatório AutoViz gerado para DatasetF1processado.
+2025-04-19 12:53:11,615 - INFO - Relatório YData Profiling salvo em mvc_kaggle/view/relatorios\ydata_DatasetF1processado.html.
+2025-04-19 12:53:22,100 - INFO - D-Tale iniciado para DatasetF1processado.
+2025-04-19 12:53:22,129 - INFO - Todas as análises foram concluídas com sucesso!
+2025-04-19 13:07:12,336 - INFO - Pandas backend loaded 2.1.4
+2025-04-19 13:07:12,355 - INFO - Numpy backend loaded 1.26.4
+2025-04-19 13:07:12,357 - INFO - Pyspark backend NOT loaded
+2025-04-19 13:07:12,359 - INFO - Python backend loaded
+2025-04-19 13:07:14,658 - INFO - Baixando dataset rohanrao/formula-1-world-championship-1950-2020 para mvc_kaggle/model/Data/Raw...
+2025-04-19 13:07:16,759 - INFO - Download concluído e arquivos extraídos com sucesso!
+2025-04-19 13:07:17,532 - INFO - Arquivos carregados com sucesso!
+2025-04-19 13:07:17,533 - INFO - Iniciando o processamento dos datasets...
+2025-04-19 13:07:19,089 - INFO - Dataset final salvo com sucesso!
+2025-04-19 13:07:19,090 - INFO - Processamento concluído com sucesso!
+2025-04-19 13:07:19,112 - INFO - Iniciando análises para o diretório: mvc_kaggle/model/Data/Processed...
+2025-04-19 13:07:19,238 - INFO - Processando DatasetF1processado (26759 linhas, 15 colunas)
+2025-04-19 13:07:40,172 - INFO - Relatório AutoViz gerado para DatasetF1processado.
+2025-04-19 13:09:37,731 - INFO - Relatório YData Profiling salvo em mvc_kaggle/view/relatorios\ydata_DatasetF1processado.html.
+2025-04-19 13:09:48,233 - INFO - D-Tale iniciado para DatasetF1processado.
+2025-04-19 13:09:48,263 - INFO - Todas as análises foram concluídas com sucesso!
+2025-04-19 13:16:19,042 - INFO - Pandas backend loaded 2.1.4
+2025-04-19 13:16:19,062 - INFO - Numpy backend loaded 1.26.4
+2025-04-19 13:16:19,065 - INFO - Pyspark backend NOT loaded
+2025-04-19 13:16:19,066 - INFO - Python backend loaded
+2025-04-19 13:23:17,700 - INFO - Pandas backend loaded 2.1.4
+2025-04-19 13:23:17,720 - INFO - Numpy backend loaded 1.26.4
+2025-04-19 13:23:17,722 - INFO - Pyspark backend NOT loaded
+2025-04-19 13:23:17,723 - INFO - Python backend loaded
+2025-04-19 13:26:51,189 - INFO - Pandas backend loaded 2.1.4
+2025-04-19 13:26:51,208 - INFO - Numpy backend loaded 1.26.4
+2025-04-19 13:26:51,211 - INFO - Pyspark backend NOT loaded
+2025-04-19 13:26:51,214 - INFO - Python backend loaded
+2025-04-19 13:31:04,962 - INFO - Pandas backend loaded 2.1.4
+2025-04-19 13:31:04,984 - INFO - Numpy backend loaded 1.26.4
+2025-04-19 13:31:04,988 - INFO - Pyspark backend NOT loaded
+2025-04-19 13:31:04,989 - INFO - Python backend loaded

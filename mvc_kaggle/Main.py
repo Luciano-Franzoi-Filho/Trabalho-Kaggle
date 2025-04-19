@@ -15,23 +15,23 @@ def main():
     print("Iniciando o sistema...")
 
     try:
-        # # Etapa 1: Autenticação no Kaggle
-        # print("Autenticando no Kaggle...")
-        # api = autenticar_kaggle()
-        # if not api:
-        #     print("Erro na autenticação. Encerrando o sistema.")
-        #     return
-        # print("Autenticação concluída com sucesso!")
+        # Etapa 1: Autenticação no Kaggle
+        print("Autenticando no Kaggle...")
+        api = autenticar_kaggle()
+        if not api:
+            print("Erro na autenticação. Encerrando o sistema.")
+            return
+        print("Autenticação concluída com sucesso!")
 
-        # # Etapa 2: Download do Dataset
-        # print("Baixando o dataset...")
-        # baixar_dataset(api)
-        # print("Download do dataset concluído!")
+        # Etapa 2: Download do Dataset
+        print("Baixando o dataset...")
+        baixar_dataset(api)
+        print("Download do dataset concluído!")
 
-        # # Etapa 3: Análise Exploratória de Dados (EDA)
-        # print("Gerando relatório de EDA...")
-        # gerar_relatorio()
-        # print("Relatório de EDA gerado com sucesso!")
+        # Etapa 3: Análise Exploratória de Dados (EDA)
+        print("Gerando relatório de EDA...")
+        gerar_relatorio()
+        print("Relatório de EDA gerado com sucesso!")
 
         # Caminho do dataset processado
         dataset_path = "mvc_kaggle/model/Data/Processed/DatasetF1processado.csv"
@@ -39,10 +39,10 @@ def main():
             print(f"Arquivo {dataset_path} não encontrado. Encerrando o sistema.")
             return
 
-        # # Etapa 4: Geração de Relatórios (Gráficos)
-        # print("Gerando gráficos e relatórios...")
-        # gerar_graficos_relatorios()  # Gera e salva os gráficos
-        # print("Relatórios gerados com sucesso!")
+        # Etapa 4: Geração de Relatórios (Gráficos)
+        print("Gerando gráficos e relatórios...")
+        gerar_graficos_relatorios()  # Gera e salva os gráficos
+        print("Relatórios gerados com sucesso!")
 
         # Etapa 5: Treinamento do Modelo
         print("Iniciando o pipeline...")

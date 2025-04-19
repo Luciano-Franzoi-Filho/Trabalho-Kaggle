@@ -5,7 +5,7 @@ import pandas as pd
 def preprocess_data(data, target):
     """
     Preprocessa os dados, aplicando escalonamento e codificação.
-    Identifica colunas com valores NaN antes de decidir como tratá-los.
+    Retorna os dados transformados, o alvo, o preprocessor e os nomes das features.
     """
     # Verificar se a coluna alvo está presente
     if target not in data.columns:
@@ -54,4 +54,15 @@ def preprocess_data(data, target):
         print(e)
         raise
 
-    return X_preprocessed, y, preprocessor
+    # Gerar os nomes das features resultantes
+    feature_names = []
+
+    if 'num' in dict(preprocessor.named_transformers_):
+        feature_names.extend(numeric_features)
+
+    if 'cat' in dict(preprocessor.named_transformers_):
+        ohe = preprocessor.named_transformers_['cat']
+        cat_feature_names = ohe.get_feature_names_out(categorical_features)
+        feature_names.extend(cat_feature_names)
+
+    return X_preprocessed, y, preprocessor, feature_names

@@ -6,6 +6,7 @@ from controller.dataset_downloader import baixar_dataset
 from model.eda_service import gerar_relatorio
 from controller.pipeline_controller import run_pipeline
 from view.relatorios_geral import gerar_graficos_relatorios
+from mvc_kaggle.model.F1_2025_prediction import simular_campeonato_f1_2025
 
 def main():
     """
@@ -48,6 +49,11 @@ def main():
         print("Iniciando o pipeline...")
         run_pipeline(dataset_path, 1)  # mínimo possível é 0.3 
         print("Pipeline concluído com sucesso!")
+
+        # Etapa 6: Simulação do Campeonato de Fórmula 1 2025
+        print("Iniciando o verificação de quem vai ganhar...")
+        simular_campeonato_f1_2025()
+        print("ganhadores gerados!")
 
     # except Exception as e:
     #     print(f"Erro inesperado durante a execução: {e}")

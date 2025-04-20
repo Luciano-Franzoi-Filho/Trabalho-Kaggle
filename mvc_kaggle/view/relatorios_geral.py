@@ -137,15 +137,48 @@ def gerar_graficos_relatorios():
     plt.savefig(f'{output_dir}/melhores_equipes.png')
     plt.close()
 
-    # 5. Melhores pilotos de todos os tempos
-    melhores_pilotos = piloto_pontos.head(10)
-    plt.figure(figsize=(10, 5))
-    sns.barplot(x=melhores_pilotos.values, y=melhores_pilotos.index, palette='mako')
-    plt.title('Top 10 Pilotos com Mais Pontos')
-    plt.xlabel('Pontos Totais')
-    plt.ylabel('Piloto')
+    # 5. Top pilotos com mais pontos acumulados por temporada (últimas 10 temporadas)
+    top_pilotos_temporada = (
+        df.groupby(['year', 'driverRef'])['points']
+        .sum()
+        .reset_index()
+        .sort_values(by=['year', 'points'], ascending=[True, False])  # Ordena por ano (ascendente) e pontos (descendente)
+    )
+
+    # Filtrar os 10 últimos anos
+    ultimos_anos = top_pilotos_temporada['year'].unique()[-10:]  # Seleciona os 10 anos mais recentes
+    top_pilotos_ultimos_anos = top_pilotos_temporada[top_pilotos_temporada['year'].isin(ultimos_anos)]
+
+    # Obter o piloto com mais pontos por temporada
+    melhores_pilotos_por_ano = (
+        top_pilotos_ultimos_anos.loc[
+            top_pilotos_ultimos_anos.groupby('year')['points'].idxmax()
+        ]
+    )
+
+    # Definir cores específicas para os pilotos
+    piloto_cores = {
+        'max_verstappen': '#1E41FF',  # Azul escuro
+        'hamilton': '#38B09D',    # Verde Petronas
+        'rosberg': '#005A8D'      # Azul claro
+    }
+
+    # Plotar o gráfico
+    plt.figure(figsize=(12, 6))
+    sns.barplot(
+        data=melhores_pilotos_por_ano,
+        x='year',
+        y='points',
+        hue='driverRef',
+        dodge=False,
+        palette=piloto_cores  # Usando o mapeamento de cores
+    )
+    plt.title('Top Pilotos com Mais Pontos por Temporada (Últimos 10 Anos)')
+    plt.xlabel('Ano')
+    plt.ylabel('Pontos Totais')
+    plt.legend(title='Piloto', bbox_to_anchor=(1.05, 1), loc='upper left')
     plt.tight_layout()
-    plt.savefig(f'{output_dir}/melhores_pilotos.png')
+    plt.savefig(f'{output_dir}/top_pilotos_ultimos_10_anos.png')
     plt.close()
 
     # 6. Status mais comuns em abandonos

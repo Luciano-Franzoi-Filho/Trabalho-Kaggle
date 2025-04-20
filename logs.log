@@ -1,0 +1,2142 @@
+2025-04-19 17:34:28,179:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-19 17:34:28,179:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-19 17:34:28,180:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-19 17:34:28,180:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-19 17:35:20,498:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-19 17:35:20,499:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-19 17:35:20,499:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-19 17:35:20,499:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-19 17:38:47,407:INFO:PyCaret RegressionExperiment
+2025-04-19 17:38:47,408:INFO:Logging name: reg-default-name
+2025-04-19 17:38:47,409:INFO:ML Usecase: MLUsecase.REGRESSION
+2025-04-19 17:38:47,409:INFO:version 3.3.2
+2025-04-19 17:38:47,409:INFO:Initializing setup()
+2025-04-19 17:38:47,409:INFO:self.USI: ff94
+2025-04-19 17:38:47,410:INFO:self._variable_keys: {'_available_plots', 'y', 'exp_name_log', 'fold_groups_param', 'pipeline', 'fold_generator', 'gpu_n_jobs_param', 'y_test', 'target_param', 'X', 'transform_target_param', 'n_jobs_param', 'fold_shuffle_param', 'y_train', 'gpu_param', '_ml_usecase', 'html_param', 'X_train', 'USI', 'X_test', 'data', 'idx', 'logging_param', 'seed', 'log_plots_param', 'memory', 'exp_id'}
+2025-04-19 17:38:47,410:INFO:Checking environment
+2025-04-19 17:38:47,411:INFO:python_version: 3.10.0
+2025-04-19 17:38:47,412:INFO:python_build: ('tags/v3.10.0:b494f59', 'Oct  4 2021 19:00:18')
+2025-04-19 17:38:47,412:INFO:machine: AMD64
+2025-04-19 17:38:47,451:INFO:platform: Windows-10-10.0.26100-SP0
+2025-04-19 17:38:47,466:INFO:Memory: svmem(total=33897811968, available=13438648320, percent=60.4, used=20459163648, free=13438648320)
+2025-04-19 17:38:47,466:INFO:Physical Core: 14
+2025-04-19 17:38:47,466:INFO:Logical Core: 20
+2025-04-19 17:38:47,466:INFO:Checking libraries
+2025-04-19 17:38:47,466:INFO:System:
+2025-04-19 17:38:47,466:INFO:    python: 3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]
+2025-04-19 17:38:47,466:INFO:executable: C:\Users\lucia\AppData\Local\Programs\Python\Python310\python.exe
+2025-04-19 17:38:47,466:INFO:   machine: Windows-10-10.0.26100-SP0
+2025-04-19 17:38:47,466:INFO:PyCaret required dependencies:
+2025-04-19 17:38:47,471:INFO:                 pip: 25.0.1
+2025-04-19 17:38:47,471:INFO:          setuptools: 57.4.0
+2025-04-19 17:38:47,471:INFO:             pycaret: 3.3.2
+2025-04-19 17:38:47,471:INFO:             IPython: 8.12.3
+2025-04-19 17:38:47,471:INFO:          ipywidgets: 8.1.5
+2025-04-19 17:38:47,471:INFO:                tqdm: 4.67.1
+2025-04-19 17:38:47,471:INFO:               numpy: 1.26.4
+2025-04-19 17:38:47,471:INFO:              pandas: 2.1.4
+2025-04-19 17:38:47,471:INFO:              jinja2: 3.1.6
+2025-04-19 17:38:47,472:INFO:               scipy: 1.11.4
+2025-04-19 17:38:47,472:INFO:              joblib: 1.3.2
+2025-04-19 17:38:47,472:INFO:             sklearn: 1.4.2
+2025-04-19 17:38:47,472:INFO:                pyod: 2.0.4
+2025-04-19 17:38:47,472:INFO:            imblearn: 0.13.0
+2025-04-19 17:38:47,472:INFO:   category_encoders: 2.7.0
+2025-04-19 17:38:47,472:INFO:            lightgbm: 4.6.0
+2025-04-19 17:38:47,472:INFO:               numba: 0.61.0
+2025-04-19 17:38:47,472:INFO:            requests: 2.32.3
+2025-04-19 17:38:47,472:INFO:          matplotlib: 3.7.5
+2025-04-19 17:38:47,472:INFO:          scikitplot: 0.3.7
+2025-04-19 17:38:47,472:INFO:         yellowbrick: 1.5
+2025-04-19 17:38:47,472:INFO:              plotly: 5.24.1
+2025-04-19 17:38:47,472:INFO:    plotly-resampler: Not installed
+2025-04-19 17:38:47,472:INFO:             kaleido: 0.2.1
+2025-04-19 17:38:47,472:INFO:           schemdraw: 0.15
+2025-04-19 17:38:47,472:INFO:         statsmodels: 0.14.4
+2025-04-19 17:38:47,473:INFO:              sktime: 0.26.0
+2025-04-19 17:38:47,473:INFO:               tbats: 1.1.3
+2025-04-19 17:38:47,473:INFO:            pmdarima: 2.0.4
+2025-04-19 17:38:47,473:INFO:              psutil: 7.0.0
+2025-04-19 17:38:47,473:INFO:          markupsafe: 3.0.2
+2025-04-19 17:38:47,473:INFO:             pickle5: Not installed
+2025-04-19 17:38:47,473:INFO:         cloudpickle: 3.1.1
+2025-04-19 17:38:47,473:INFO:         deprecation: 2.1.0
+2025-04-19 17:38:47,473:INFO:              xxhash: 3.5.0
+2025-04-19 17:38:47,473:INFO:           wurlitzer: Not installed
+2025-04-19 17:38:47,473:INFO:PyCaret optional dependencies:
+2025-04-19 17:38:47,499:INFO:                shap: 0.47.1
+2025-04-19 17:38:47,499:INFO:           interpret: Not installed
+2025-04-19 17:38:47,499:INFO:                umap: Not installed
+2025-04-19 17:38:47,501:INFO:     ydata_profiling: 4.16.1
+2025-04-19 17:38:47,501:INFO:  explainerdashboard: Not installed
+2025-04-19 17:38:47,501:INFO:             autoviz: 0.1.905
+2025-04-19 17:38:47,501:INFO:           fairlearn: Not installed
+2025-04-19 17:38:47,501:INFO:          deepchecks: Not installed
+2025-04-19 17:38:47,501:INFO:             xgboost: 1.6.2
+2025-04-19 17:38:47,501:INFO:            catboost: Not installed
+2025-04-19 17:38:47,501:INFO:              kmodes: Not installed
+2025-04-19 17:38:47,501:INFO:             mlxtend: Not installed
+2025-04-19 17:38:47,501:INFO:       statsforecast: Not installed
+2025-04-19 17:38:47,501:INFO:        tune_sklearn: Not installed
+2025-04-19 17:38:47,501:INFO:                 ray: Not installed
+2025-04-19 17:38:47,501:INFO:            hyperopt: Not installed
+2025-04-19 17:38:47,501:INFO:              optuna: Not installed
+2025-04-19 17:38:47,501:INFO:               skopt: Not installed
+2025-04-19 17:38:47,501:INFO:              mlflow: Not installed
+2025-04-19 17:38:47,501:INFO:              gradio: Not installed
+2025-04-19 17:38:47,501:INFO:             fastapi: Not installed
+2025-04-19 17:38:47,501:INFO:             uvicorn: Not installed
+2025-04-19 17:38:47,501:INFO:              m2cgen: Not installed
+2025-04-19 17:38:47,502:INFO:           evidently: Not installed
+2025-04-19 17:38:47,502:INFO:               fugue: Not installed
+2025-04-19 17:38:47,502:INFO:           streamlit: Not installed
+2025-04-19 17:38:47,502:INFO:             prophet: Not installed
+2025-04-19 17:38:47,502:INFO:None
+2025-04-19 17:38:47,502:INFO:Set up data.
+2025-04-19 17:38:47,541:INFO:Set up folding strategy.
+2025-04-19 17:38:47,541:INFO:Set up train/test split.
+2025-04-19 17:38:48,583:INFO:Set up index.
+2025-04-19 17:38:48,583:INFO:Assigning column types.
+2025-04-19 17:38:48,622:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2025-04-19 17:38:48,623:INFO:Engine for model 'lasso' has not been set explicitly, hence returning None.
+2025-04-19 17:38:48,635:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2025-04-19 17:38:48,646:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2025-04-19 17:38:48,829:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2025-04-19 17:38:48,914:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-04-19 17:38:48,916:INFO:Soft dependency imported: xgboost: 1.6.2
+2025-04-19 17:38:48,921:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-04-19 17:38:48,922:INFO:Engine for model 'lasso' has not been set explicitly, hence returning None.
+2025-04-19 17:38:48,929:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2025-04-19 17:38:48,946:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2025-04-19 17:38:49,067:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2025-04-19 17:38:49,169:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-04-19 17:38:49,170:INFO:Soft dependency imported: xgboost: 1.6.2
+2025-04-19 17:38:49,175:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-04-19 17:38:49,175:INFO:Engine successfully changes for model 'lasso' to 'sklearn'.
+2025-04-19 17:38:49,183:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2025-04-19 17:38:49,191:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2025-04-19 17:38:49,333:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2025-04-19 17:38:49,421:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-04-19 17:38:49,423:INFO:Soft dependency imported: xgboost: 1.6.2
+2025-04-19 17:38:49,431:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-04-19 17:38:49,440:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2025-04-19 17:38:49,448:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2025-04-19 17:38:49,579:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2025-04-19 17:38:49,665:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-04-19 17:38:49,666:INFO:Soft dependency imported: xgboost: 1.6.2
+2025-04-19 17:38:49,671:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-04-19 17:38:49,672:INFO:Engine successfully changes for model 'ridge' to 'sklearn'.
+2025-04-19 17:38:49,688:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2025-04-19 17:38:49,837:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2025-04-19 17:38:49,926:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-04-19 17:38:49,929:INFO:Soft dependency imported: xgboost: 1.6.2
+2025-04-19 17:38:49,936:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-04-19 17:38:49,967:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2025-04-19 17:38:50,097:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2025-04-19 17:38:50,217:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-04-19 17:38:50,218:INFO:Soft dependency imported: xgboost: 1.6.2
+2025-04-19 17:38:50,223:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-04-19 17:38:50,223:INFO:Engine successfully changes for model 'en' to 'sklearn'.
+2025-04-19 17:38:50,382:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2025-04-19 17:38:50,473:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-04-19 17:38:50,474:INFO:Soft dependency imported: xgboost: 1.6.2
+2025-04-19 17:38:50,479:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-04-19 17:38:50,663:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2025-04-19 17:38:50,764:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-04-19 17:38:50,765:INFO:Soft dependency imported: xgboost: 1.6.2
+2025-04-19 17:38:50,769:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-04-19 17:38:50,770:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2025-04-19 17:38:50,961:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2025-04-19 17:38:51,045:INFO:Soft dependency imported: xgboost: 1.6.2
+2025-04-19 17:38:51,049:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-04-19 17:38:51,193:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2025-04-19 17:38:51,285:INFO:Soft dependency imported: xgboost: 1.6.2
+2025-04-19 17:38:51,289:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-04-19 17:38:51,290:INFO:Engine successfully changes for model 'svm' to 'sklearn'.
+2025-04-19 17:38:51,542:INFO:Soft dependency imported: xgboost: 1.6.2
+2025-04-19 17:38:51,550:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-04-19 17:38:51,814:INFO:Soft dependency imported: xgboost: 1.6.2
+2025-04-19 17:38:51,819:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-04-19 17:38:51,822:INFO:Preparing preprocessing pipeline...
+2025-04-19 17:38:51,822:INFO:Set up simple imputation.
+2025-04-19 17:38:51,830:INFO:Set up column name cleaning.
+2025-04-19 17:38:51,977:INFO:Finished creating preprocessing pipeline.
+2025-04-19 17:38:51,993:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\lucia\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['grid', 'position', 'year',
+                                             'fastestLapTime',
+                                             'fastestLapSpeed', 'q1', 'q2',
+                                             'q3',
+                                             'name_circuits_Adelaide Street '
+                                             'Circuit',
+                                             'name_circuits_Albert Park Grand '
+                                             'Prix Circuit',
+                                             'name_circuits_Autodromo Enzo e '
+                                             'Dino Ferrari',
+                                             'name_circui...
+                                             'name_circuits_Suzuka Circuit',
+                                             'name_circuits_Yas Marina Circuit',
+                                             'driverRef_alguersuari',
+                                             'driverRef_angelis',
+                                             'driverRef_barrichello',
+                                             'driverRef_berger', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames()))])
+2025-04-19 17:38:51,993:INFO:Creating final display dataframe.
+2025-04-19 17:38:52,585:INFO:Setup _display_container:            Description                Value      
+0                    Session id               123
+1                        Target            points
+2                   Target type        Regression
+3           Original data shape         (27, 133)
+4        Transformed data shape         (27, 133)
+5   Transformed train set shape         (18, 133)
+6    Transformed test set shape          (9, 133)
+7              Numeric features               132
+8                    Preprocess              True
+9               Imputation type            simple
+10           Numeric imputation              mean
+11       Categorical imputation              mode
+12               Fold Generator             KFold
+13                  Fold Number                10
+14                     CPU Jobs                -1
+15                      Use GPU             False
+16               Log Experiment             False
+17              Experiment Name  reg-default-name
+18                          USI              ff94
+2025-04-19 17:38:52,844:INFO:Soft dependency imported: xgboost: 1.6.2
+2025-04-19 17:38:52,848:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-04-19 17:38:53,090:INFO:Soft dependency imported: xgboost: 1.6.2
+2025-04-19 17:38:53,095:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-04-19 17:38:53,096:INFO:setup() successfully completed in 5.7s...............
+2025-04-19 17:38:53,096:INFO:Initializing compare_models()
+2025-04-19 17:38:53,096:INFO:compare_models(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001EFEAC96FB0>, include=None, fold=None, round=4, cross_validation=True, sort=R2, n_select=1, budget_time=None, turbo=True, errors=ignore, fit_kwargs=None, groups=None, experiment_custom_tags=None, probability_threshold=None, verbose=True, parallel=None, caller_params={'self': <pycaret.regression.oop.RegressionExperiment object at 0x000001EFEAC96FB0>, 'include': None, 'exclude': None, 'fold': None, 'round': 4, 'cross_validation': True, 'sort': 'R2', 'n_select': 1, 'budget_time': None, 'turbo': True, 'errors': 'ignore', 'fit_kwargs': None, 'groups': None, 'experiment_custom_tags': None, 'engine': None, 'verbose': True, 'parallel': None, '__class__': <class 'pycaret.regression.oop.RegressionExperiment'>}, exclude=None)
+2025-04-19 17:38:53,097:INFO:Checking exceptions
+2025-04-19 17:38:53,107:INFO:Preparing display monitor
+2025-04-19 17:38:53,111:INFO:Initializing Linear Regression
+2025-04-19 17:38:53,112:INFO:Total runtime is 1.68760617574056e-05 minutes
+2025-04-19 17:38:53,112:INFO:SubProcess create_model() called ==================================
+2025-04-19 17:38:53,112:INFO:Initializing create_model()
+2025-04-19 17:38:53,112:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001EFEAC96FB0>, estimator=lr, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001F0160FB3D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-04-19 17:38:53,112:INFO:Checking exceptions
+2025-04-19 17:38:53,113:INFO:Importing libraries
+2025-04-19 17:38:53,113:INFO:Copying training dataset
+2025-04-19 17:38:53,144:INFO:Defining folds
+2025-04-19 17:38:53,144:INFO:Declaring metric variables
+2025-04-19 17:38:53,144:INFO:Importing untrained model
+2025-04-19 17:38:53,145:INFO:Linear Regression Imported successfully
+2025-04-19 17:38:53,146:INFO:Starting cross validation
+2025-04-19 17:38:53,162:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-19 17:38:56,586:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-04-19 17:38:56,588:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-04-19 17:38:56,589:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:38:56,598:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:38:56,724:INFO:Calculating mean and std
+2025-04-19 17:38:56,725:INFO:Creating metrics dataframe
+2025-04-19 17:38:56,728:INFO:Uploading results into container
+2025-04-19 17:38:56,729:INFO:Uploading model into container now
+2025-04-19 17:38:56,730:INFO:_master_model_container: 1
+2025-04-19 17:38:56,730:INFO:_display_container: 2
+2025-04-19 17:38:56,731:INFO:LinearRegression(n_jobs=-1)
+2025-04-19 17:38:56,731:INFO:create_model() successfully completed......................................
+2025-04-19 17:38:56,982:INFO:SubProcess create_model() end ==================================
+2025-04-19 17:38:56,982:INFO:Creating metrics dataframe
+2025-04-19 17:38:56,986:INFO:Initializing Lasso Regression
+2025-04-19 17:38:56,987:INFO:Total runtime is 0.06459318399429322 minutes
+2025-04-19 17:38:56,987:INFO:SubProcess create_model() called ==================================
+2025-04-19 17:38:56,988:INFO:Initializing create_model()
+2025-04-19 17:38:56,988:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001EFEAC96FB0>, estimator=lasso, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001F0160FB3D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-04-19 17:38:56,988:INFO:Checking exceptions
+2025-04-19 17:38:56,988:INFO:Importing libraries
+2025-04-19 17:38:56,988:INFO:Copying training dataset
+2025-04-19 17:38:57,014:INFO:Defining folds
+2025-04-19 17:38:57,014:INFO:Declaring metric variables
+2025-04-19 17:38:57,015:INFO:Importing untrained model
+2025-04-19 17:38:57,015:INFO:Lasso Regression Imported successfully
+2025-04-19 17:38:57,015:INFO:Starting cross validation
+2025-04-19 17:38:57,018:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-19 17:39:00,461:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-04-19 17:39:00,462:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-04-19 17:39:00,472:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:00,479:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:00,504:INFO:Calculating mean and std
+2025-04-19 17:39:00,506:INFO:Creating metrics dataframe
+2025-04-19 17:39:00,509:INFO:Uploading results into container
+2025-04-19 17:39:00,510:INFO:Uploading model into container now
+2025-04-19 17:39:00,511:INFO:_master_model_container: 2
+2025-04-19 17:39:00,511:INFO:_display_container: 2
+2025-04-19 17:39:00,511:INFO:Lasso(random_state=123)
+2025-04-19 17:39:00,511:INFO:create_model() successfully completed......................................
+2025-04-19 17:39:00,753:INFO:SubProcess create_model() end ==================================
+2025-04-19 17:39:00,754:INFO:Creating metrics dataframe
+2025-04-19 17:39:00,760:INFO:Initializing Ridge Regression
+2025-04-19 17:39:00,760:INFO:Total runtime is 0.12747960488001506 minutes
+2025-04-19 17:39:00,761:INFO:SubProcess create_model() called ==================================
+2025-04-19 17:39:00,761:INFO:Initializing create_model()
+2025-04-19 17:39:00,761:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001EFEAC96FB0>, estimator=ridge, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001F0160FB3D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-04-19 17:39:00,762:INFO:Checking exceptions
+2025-04-19 17:39:00,762:INFO:Importing libraries
+2025-04-19 17:39:00,762:INFO:Copying training dataset
+2025-04-19 17:39:00,796:INFO:Defining folds
+2025-04-19 17:39:00,796:INFO:Declaring metric variables
+2025-04-19 17:39:00,796:INFO:Importing untrained model
+2025-04-19 17:39:00,797:INFO:Ridge Regression Imported successfully
+2025-04-19 17:39:00,798:INFO:Starting cross validation
+2025-04-19 17:39:00,800:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-19 17:39:01,023:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-04-19 17:39:01,025:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-04-19 17:39:01,036:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:01,057:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:01,072:INFO:Calculating mean and std
+2025-04-19 17:39:01,074:INFO:Creating metrics dataframe
+2025-04-19 17:39:01,077:INFO:Uploading results into container
+2025-04-19 17:39:01,079:INFO:Uploading model into container now
+2025-04-19 17:39:01,080:INFO:_master_model_container: 3
+2025-04-19 17:39:01,080:INFO:_display_container: 2
+2025-04-19 17:39:01,080:INFO:Ridge(random_state=123)
+2025-04-19 17:39:01,081:INFO:create_model() successfully completed......................................
+2025-04-19 17:39:01,312:INFO:SubProcess create_model() end ==================================
+2025-04-19 17:39:01,312:INFO:Creating metrics dataframe
+2025-04-19 17:39:01,317:INFO:Initializing Elastic Net
+2025-04-19 17:39:01,317:INFO:Total runtime is 0.13675969441731772 minutes
+2025-04-19 17:39:01,318:INFO:SubProcess create_model() called ==================================
+2025-04-19 17:39:01,318:INFO:Initializing create_model()
+2025-04-19 17:39:01,318:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001EFEAC96FB0>, estimator=en, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001F0160FB3D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-04-19 17:39:01,318:INFO:Checking exceptions
+2025-04-19 17:39:01,318:INFO:Importing libraries
+2025-04-19 17:39:01,319:INFO:Copying training dataset
+2025-04-19 17:39:01,347:INFO:Defining folds
+2025-04-19 17:39:01,348:INFO:Declaring metric variables
+2025-04-19 17:39:01,348:INFO:Importing untrained model
+2025-04-19 17:39:01,349:INFO:Elastic Net Imported successfully
+2025-04-19 17:39:01,349:INFO:Starting cross validation
+2025-04-19 17:39:01,351:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-19 17:39:01,600:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-04-19 17:39:01,601:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-04-19 17:39:01,637:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:01,652:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:01,665:INFO:Calculating mean and std
+2025-04-19 17:39:01,667:INFO:Creating metrics dataframe
+2025-04-19 17:39:01,670:INFO:Uploading results into container
+2025-04-19 17:39:01,671:INFO:Uploading model into container now
+2025-04-19 17:39:01,672:INFO:_master_model_container: 4
+2025-04-19 17:39:01,672:INFO:_display_container: 2
+2025-04-19 17:39:01,672:INFO:ElasticNet(random_state=123)
+2025-04-19 17:39:01,672:INFO:create_model() successfully completed......................................
+2025-04-19 17:39:01,878:INFO:SubProcess create_model() end ==================================
+2025-04-19 17:39:01,878:INFO:Creating metrics dataframe
+2025-04-19 17:39:01,884:INFO:Initializing Least Angle Regression
+2025-04-19 17:39:01,884:INFO:Total runtime is 0.14620620807011925 minutes
+2025-04-19 17:39:01,885:INFO:SubProcess create_model() called ==================================
+2025-04-19 17:39:01,886:INFO:Initializing create_model()
+2025-04-19 17:39:01,886:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001EFEAC96FB0>, estimator=lar, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001F0160FB3D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-04-19 17:39:01,886:INFO:Checking exceptions
+2025-04-19 17:39:01,886:INFO:Importing libraries
+2025-04-19 17:39:01,886:INFO:Copying training dataset
+2025-04-19 17:39:01,916:INFO:Defining folds
+2025-04-19 17:39:01,917:INFO:Declaring metric variables
+2025-04-19 17:39:01,917:INFO:Importing untrained model
+2025-04-19 17:39:01,918:INFO:Least Angle Regression Imported successfully
+2025-04-19 17:39:01,919:INFO:Starting cross validation
+2025-04-19 17:39:01,922:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-19 17:39:02,079:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_least_angle.py:812: RuntimeWarning: overflow encountered in multiply
+  coef[active] = prev_coef[active] + gamma_ * least_squares
+
+2025-04-19 17:39:02,080:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_least_angle.py:815: RuntimeWarning: overflow encountered in multiply
+  Cov -= gamma_ * corr_eq_dir
+
+2025-04-19 17:39:02,084:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_least_angle.py:812: RuntimeWarning: overflow encountered in cast
+  coef[active] = prev_coef[active] + gamma_ * least_squares
+
+2025-04-19 17:39:02,113:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_least_angle.py:771: RuntimeWarning: overflow encountered in divide
+  g1 = arrayfuncs.min_pos((C - Cov) / (AA - corr_eq_dir + tiny32))
+
+2025-04-19 17:39:02,113:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_least_angle.py:775: RuntimeWarning: overflow encountered in divide
+  g2 = arrayfuncs.min_pos((C + Cov) / (AA + corr_eq_dir + tiny32))
+
+2025-04-19 17:39:02,114:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_least_angle.py:812: RuntimeWarning: overflow encountered in cast
+  coef[active] = prev_coef[active] + gamma_ * least_squares
+
+2025-04-19 17:39:02,114:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_least_angle.py:815: RuntimeWarning: overflow encountered in subtract
+  Cov -= gamma_ * corr_eq_dir
+
+2025-04-19 17:39:02,122:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\extmath.py:208: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+
+2025-04-19 17:39:02,127:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:501: RuntimeWarning: overflow encountered in square
+  output_errors = np.average((y_true - y_pred) ** 2, axis=0, weights=sample_weight)
+
+2025-04-19 17:39:02,129:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:501: RuntimeWarning: overflow encountered in square
+  output_errors = np.average((y_true - y_pred) ** 2, axis=0, weights=sample_weight)
+
+2025-04-19 17:39:02,130:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1196: RuntimeWarning: overflow encountered in square
+  numerator = (weight * (y_true - y_pred) ** 2).sum(axis=0, dtype=np.float64)
+
+2025-04-19 17:39:02,144:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py:204: FitFailedWarning: Metric 'make_scorer(root_mean_squared_log_error, greater_is_better=False, response_method='predict')' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py", line 196, in _score
+    return super()._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\containers\metrics\regression.py", line 209, in root_mean_squared_log_error
+    metrics.mean_squared_log_error(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 680, in mean_squared_log_error
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,146:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py:204: FitFailedWarning: Metric 'make_scorer(mean_absolute_percentage_error, greater_is_better=False, response_method='predict')' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py", line 196, in _score
+    return super()._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\containers\metrics\regression.py", line 233, in mean_absolute_percentage_error
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,148:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\model_selection\_validation.py:1011: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to 0.0. Details: 
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 137, in __call__
+    score = scorer._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 207, in mean_absolute_error
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,149:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\model_selection\_validation.py:1011: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to 0.0. Details: 
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 137, in __call__
+    score = scorer._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 497, in mean_squared_error
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,149:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\model_selection\_validation.py:1011: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to 0.0. Details: 
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 137, in __call__
+    score = scorer._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 572, in root_mean_squared_error
+    mean_squared_error(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 186, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 497, in mean_squared_error
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,150:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\model_selection\_validation.py:1011: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to 0.0. Details: 
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 137, in __call__
+    score = scorer._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 1180, in r2_score
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,164:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py:204: FitFailedWarning: Metric 'make_scorer(root_mean_squared_log_error, greater_is_better=False, response_method='predict')' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py", line 196, in _score
+    return super()._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\containers\metrics\regression.py", line 209, in root_mean_squared_log_error
+    metrics.mean_squared_log_error(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 680, in mean_squared_log_error
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,166:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py:204: FitFailedWarning: Metric 'make_scorer(mean_absolute_percentage_error, greater_is_better=False, response_method='predict')' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py", line 196, in _score
+    return super()._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\containers\metrics\regression.py", line 233, in mean_absolute_percentage_error
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,168:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\model_selection\_validation.py:1011: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to 0.0. Details: 
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 137, in __call__
+    score = scorer._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 207, in mean_absolute_error
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,168:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\model_selection\_validation.py:1011: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to 0.0. Details: 
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 137, in __call__
+    score = scorer._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 497, in mean_squared_error
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,168:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\model_selection\_validation.py:1011: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to 0.0. Details: 
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 137, in __call__
+    score = scorer._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 572, in root_mean_squared_error
+    mean_squared_error(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 186, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 497, in mean_squared_error
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,168:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\model_selection\_validation.py:1011: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to 0.0. Details: 
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 137, in __call__
+    score = scorer._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 1180, in r2_score
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,177:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_least_angle.py:812: RuntimeWarning: overflow encountered in multiply
+  coef[active] = prev_coef[active] + gamma_ * least_squares
+
+2025-04-19 17:39:02,177:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_least_angle.py:815: RuntimeWarning: overflow encountered in multiply
+  Cov -= gamma_ * corr_eq_dir
+
+2025-04-19 17:39:02,178:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_least_angle.py:812: RuntimeWarning: overflow encountered in cast
+  coef[active] = prev_coef[active] + gamma_ * least_squares
+
+2025-04-19 17:39:02,186:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:501: RuntimeWarning: overflow encountered in square
+  output_errors = np.average((y_true - y_pred) ** 2, axis=0, weights=sample_weight)
+
+2025-04-19 17:39:02,187:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:501: RuntimeWarning: overflow encountered in square
+  output_errors = np.average((y_true - y_pred) ** 2, axis=0, weights=sample_weight)
+
+2025-04-19 17:39:02,188:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:501: RuntimeWarning: overflow encountered in square
+  output_errors = np.average((y_true - y_pred) ** 2, axis=0, weights=sample_weight)
+
+2025-04-19 17:39:02,188:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:501: RuntimeWarning: overflow encountered in square
+  output_errors = np.average((y_true - y_pred) ** 2, axis=0, weights=sample_weight)
+
+2025-04-19 17:39:02,189:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1196: RuntimeWarning: overflow encountered in square
+  numerator = (weight * (y_true - y_pred) ** 2).sum(axis=0, dtype=np.float64)
+
+2025-04-19 17:39:02,190:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1196: RuntimeWarning: overflow encountered in square
+  numerator = (weight * (y_true - y_pred) ** 2).sum(axis=0, dtype=np.float64)
+
+2025-04-19 17:39:02,194:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-04-19 17:39:02,195:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-04-19 17:39:02,200:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\extmath.py:208: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+
+2025-04-19 17:39:02,209:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:501: RuntimeWarning: overflow encountered in square
+  output_errors = np.average((y_true - y_pred) ** 2, axis=0, weights=sample_weight)
+
+2025-04-19 17:39:02,210:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:501: RuntimeWarning: overflow encountered in square
+  output_errors = np.average((y_true - y_pred) ** 2, axis=0, weights=sample_weight)
+
+2025-04-19 17:39:02,211:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1196: RuntimeWarning: overflow encountered in square
+  numerator = (weight * (y_true - y_pred) ** 2).sum(axis=0, dtype=np.float64)
+
+2025-04-19 17:39:02,213:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:501: RuntimeWarning: overflow encountered in square
+  output_errors = np.average((y_true - y_pred) ** 2, axis=0, weights=sample_weight)
+
+2025-04-19 17:39:02,213:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:501: RuntimeWarning: overflow encountered in square
+  output_errors = np.average((y_true - y_pred) ** 2, axis=0, weights=sample_weight)
+
+2025-04-19 17:39:02,214:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py:204: FitFailedWarning: Metric 'make_scorer(root_mean_squared_log_error, greater_is_better=False, response_method='predict')' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py", line 196, in _score
+    return super()._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\containers\metrics\regression.py", line 209, in root_mean_squared_log_error
+    metrics.mean_squared_log_error(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 680, in mean_squared_log_error
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,214:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:501: RuntimeWarning: overflow encountered in square
+  output_errors = np.average((y_true - y_pred) ** 2, axis=0, weights=sample_weight)
+
+2025-04-19 17:39:02,215:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:501: RuntimeWarning: overflow encountered in square
+  output_errors = np.average((y_true - y_pred) ** 2, axis=0, weights=sample_weight)
+
+2025-04-19 17:39:02,215:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:02,215:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:501: RuntimeWarning: overflow encountered in square
+  output_errors = np.average((y_true - y_pred) ** 2, axis=0, weights=sample_weight)
+
+2025-04-19 17:39:02,216:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py:204: FitFailedWarning: Metric 'make_scorer(mean_absolute_percentage_error, greater_is_better=False, response_method='predict')' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py", line 196, in _score
+    return super()._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\containers\metrics\regression.py", line 233, in mean_absolute_percentage_error
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,217:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:02,218:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\model_selection\_validation.py:1011: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to 0.0. Details: 
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 137, in __call__
+    score = scorer._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 207, in mean_absolute_error
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,218:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\model_selection\_validation.py:1011: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to 0.0. Details: 
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 137, in __call__
+    score = scorer._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 497, in mean_squared_error
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,218:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\model_selection\_validation.py:1011: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to 0.0. Details: 
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 137, in __call__
+    score = scorer._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 572, in root_mean_squared_error
+    mean_squared_error(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 186, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 497, in mean_squared_error
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,219:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\model_selection\_validation.py:1011: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to 0.0. Details: 
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 137, in __call__
+    score = scorer._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 1180, in r2_score
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,228:INFO:Calculating mean and std
+2025-04-19 17:39:02,230:INFO:Creating metrics dataframe
+2025-04-19 17:39:02,234:INFO:Uploading results into container
+2025-04-19 17:39:02,235:INFO:Uploading model into container now
+2025-04-19 17:39:02,235:INFO:_master_model_container: 5
+2025-04-19 17:39:02,236:INFO:_display_container: 2
+2025-04-19 17:39:02,236:INFO:Lars(random_state=123)
+2025-04-19 17:39:02,236:INFO:create_model() successfully completed......................................
+2025-04-19 17:39:02,458:WARNING:create_model() for Lars(random_state=123) raised an exception or returned all 0.0, trying without fit_kwargs:
+2025-04-19 17:39:02,461:WARNING:Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pycaret_experiment\supervised_experiment.py", line 796, in compare_models
+    assert (
+AssertionError
+
+2025-04-19 17:39:02,462:INFO:Initializing create_model()
+2025-04-19 17:39:02,462:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001EFEAC96FB0>, estimator=lar, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001F0160FB3D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-04-19 17:39:02,462:INFO:Checking exceptions
+2025-04-19 17:39:02,462:INFO:Importing libraries
+2025-04-19 17:39:02,462:INFO:Copying training dataset
+2025-04-19 17:39:02,497:INFO:Defining folds
+2025-04-19 17:39:02,498:INFO:Declaring metric variables
+2025-04-19 17:39:02,498:INFO:Importing untrained model
+2025-04-19 17:39:02,499:INFO:Least Angle Regression Imported successfully
+2025-04-19 17:39:02,500:INFO:Starting cross validation
+2025-04-19 17:39:02,504:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-19 17:39:02,654:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_least_angle.py:812: RuntimeWarning: overflow encountered in multiply
+  coef[active] = prev_coef[active] + gamma_ * least_squares
+
+2025-04-19 17:39:02,654:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_least_angle.py:815: RuntimeWarning: overflow encountered in multiply
+  Cov -= gamma_ * corr_eq_dir
+
+2025-04-19 17:39:02,655:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_least_angle.py:812: RuntimeWarning: overflow encountered in cast
+  coef[active] = prev_coef[active] + gamma_ * least_squares
+
+2025-04-19 17:39:02,678:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\extmath.py:208: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+
+2025-04-19 17:39:02,690:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_least_angle.py:771: RuntimeWarning: overflow encountered in divide
+  g1 = arrayfuncs.min_pos((C - Cov) / (AA - corr_eq_dir + tiny32))
+
+2025-04-19 17:39:02,691:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_least_angle.py:775: RuntimeWarning: overflow encountered in divide
+  g2 = arrayfuncs.min_pos((C + Cov) / (AA + corr_eq_dir + tiny32))
+
+2025-04-19 17:39:02,691:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_least_angle.py:812: RuntimeWarning: overflow encountered in cast
+  coef[active] = prev_coef[active] + gamma_ * least_squares
+
+2025-04-19 17:39:02,691:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_least_angle.py:815: RuntimeWarning: overflow encountered in subtract
+  Cov -= gamma_ * corr_eq_dir
+
+2025-04-19 17:39:02,696:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py:204: FitFailedWarning: Metric 'make_scorer(root_mean_squared_log_error, greater_is_better=False, response_method='predict')' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py", line 196, in _score
+    return super()._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\containers\metrics\regression.py", line 209, in root_mean_squared_log_error
+    metrics.mean_squared_log_error(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 680, in mean_squared_log_error
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,698:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py:204: FitFailedWarning: Metric 'make_scorer(mean_absolute_percentage_error, greater_is_better=False, response_method='predict')' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py", line 196, in _score
+    return super()._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\containers\metrics\regression.py", line 233, in mean_absolute_percentage_error
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,701:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\model_selection\_validation.py:1011: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to 0.0. Details: 
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 137, in __call__
+    score = scorer._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 207, in mean_absolute_error
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,701:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\model_selection\_validation.py:1011: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to 0.0. Details: 
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 137, in __call__
+    score = scorer._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 497, in mean_squared_error
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,701:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\model_selection\_validation.py:1011: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to 0.0. Details: 
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 137, in __call__
+    score = scorer._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 572, in root_mean_squared_error
+    mean_squared_error(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 186, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 497, in mean_squared_error
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,702:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\model_selection\_validation.py:1011: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to 0.0. Details: 
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 137, in __call__
+    score = scorer._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 1180, in r2_score
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,746:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:501: RuntimeWarning: overflow encountered in square
+  output_errors = np.average((y_true - y_pred) ** 2, axis=0, weights=sample_weight)
+
+2025-04-19 17:39:02,748:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:501: RuntimeWarning: overflow encountered in square
+  output_errors = np.average((y_true - y_pred) ** 2, axis=0, weights=sample_weight)
+
+2025-04-19 17:39:02,749:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1196: RuntimeWarning: overflow encountered in square
+  numerator = (weight * (y_true - y_pred) ** 2).sum(axis=0, dtype=np.float64)
+
+2025-04-19 17:39:02,763:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\extmath.py:208: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+
+2025-04-19 17:39:02,775:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py:204: FitFailedWarning: Metric 'make_scorer(root_mean_squared_log_error, greater_is_better=False, response_method='predict')' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py", line 196, in _score
+    return super()._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\containers\metrics\regression.py", line 209, in root_mean_squared_log_error
+    metrics.mean_squared_log_error(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 680, in mean_squared_log_error
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,776:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py:204: FitFailedWarning: Metric 'make_scorer(mean_absolute_percentage_error, greater_is_better=False, response_method='predict')' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py", line 196, in _score
+    return super()._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\containers\metrics\regression.py", line 233, in mean_absolute_percentage_error
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,778:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\model_selection\_validation.py:1011: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to 0.0. Details: 
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 137, in __call__
+    score = scorer._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 207, in mean_absolute_error
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,778:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\model_selection\_validation.py:1011: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to 0.0. Details: 
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 137, in __call__
+    score = scorer._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 497, in mean_squared_error
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,778:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\model_selection\_validation.py:1011: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to 0.0. Details: 
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 137, in __call__
+    score = scorer._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 572, in root_mean_squared_error
+    mean_squared_error(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 186, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 497, in mean_squared_error
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,778:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\model_selection\_validation.py:1011: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to 0.0. Details: 
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 137, in __call__
+    score = scorer._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 1180, in r2_score
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,780:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:501: RuntimeWarning: overflow encountered in square
+  output_errors = np.average((y_true - y_pred) ** 2, axis=0, weights=sample_weight)
+
+2025-04-19 17:39:02,781:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:501: RuntimeWarning: overflow encountered in square
+  output_errors = np.average((y_true - y_pred) ** 2, axis=0, weights=sample_weight)
+
+2025-04-19 17:39:02,783:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1196: RuntimeWarning: overflow encountered in square
+  numerator = (weight * (y_true - y_pred) ** 2).sum(axis=0, dtype=np.float64)
+
+2025-04-19 17:39:02,784:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:501: RuntimeWarning: overflow encountered in square
+  output_errors = np.average((y_true - y_pred) ** 2, axis=0, weights=sample_weight)
+
+2025-04-19 17:39:02,786:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:501: RuntimeWarning: overflow encountered in square
+  output_errors = np.average((y_true - y_pred) ** 2, axis=0, weights=sample_weight)
+
+2025-04-19 17:39:02,786:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-04-19 17:39:02,786:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-04-19 17:39:02,787:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1196: RuntimeWarning: overflow encountered in square
+  numerator = (weight * (y_true - y_pred) ** 2).sum(axis=0, dtype=np.float64)
+
+2025-04-19 17:39:02,805:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:501: RuntimeWarning: overflow encountered in square
+  output_errors = np.average((y_true - y_pred) ** 2, axis=0, weights=sample_weight)
+
+2025-04-19 17:39:02,806:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:501: RuntimeWarning: overflow encountered in square
+  output_errors = np.average((y_true - y_pred) ** 2, axis=0, weights=sample_weight)
+
+2025-04-19 17:39:02,808:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1196: RuntimeWarning: overflow encountered in square
+  numerator = (weight * (y_true - y_pred) ** 2).sum(axis=0, dtype=np.float64)
+
+2025-04-19 17:39:02,808:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_least_angle.py:812: RuntimeWarning: overflow encountered in multiply
+  coef[active] = prev_coef[active] + gamma_ * least_squares
+
+2025-04-19 17:39:02,809:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_least_angle.py:815: RuntimeWarning: overflow encountered in multiply
+  Cov -= gamma_ * corr_eq_dir
+
+2025-04-19 17:39:02,809:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_least_angle.py:812: RuntimeWarning: overflow encountered in cast
+  coef[active] = prev_coef[active] + gamma_ * least_squares
+
+2025-04-19 17:39:02,810:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:501: RuntimeWarning: overflow encountered in square
+  output_errors = np.average((y_true - y_pred) ** 2, axis=0, weights=sample_weight)
+
+2025-04-19 17:39:02,811:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:501: RuntimeWarning: overflow encountered in square
+  output_errors = np.average((y_true - y_pred) ** 2, axis=0, weights=sample_weight)
+
+2025-04-19 17:39:02,812:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:02,813:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:501: RuntimeWarning: overflow encountered in square
+  output_errors = np.average((y_true - y_pred) ** 2, axis=0, weights=sample_weight)
+
+2025-04-19 17:39:02,814:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:501: RuntimeWarning: overflow encountered in square
+  output_errors = np.average((y_true - y_pred) ** 2, axis=0, weights=sample_weight)
+
+2025-04-19 17:39:02,815:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1196: RuntimeWarning: overflow encountered in square
+  numerator = (weight * (y_true - y_pred) ** 2).sum(axis=0, dtype=np.float64)
+
+2025-04-19 17:39:02,823:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\extmath.py:208: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+
+2025-04-19 17:39:02,827:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:501: RuntimeWarning: overflow encountered in square
+  output_errors = np.average((y_true - y_pred) ** 2, axis=0, weights=sample_weight)
+
+2025-04-19 17:39:02,828:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:501: RuntimeWarning: overflow encountered in square
+  output_errors = np.average((y_true - y_pred) ** 2, axis=0, weights=sample_weight)
+
+2025-04-19 17:39:02,829:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:02,834:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py:204: FitFailedWarning: Metric 'make_scorer(root_mean_squared_log_error, greater_is_better=False, response_method='predict')' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py", line 196, in _score
+    return super()._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\containers\metrics\regression.py", line 209, in root_mean_squared_log_error
+    metrics.mean_squared_log_error(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 680, in mean_squared_log_error
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,835:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py:204: FitFailedWarning: Metric 'make_scorer(mean_absolute_percentage_error, greater_is_better=False, response_method='predict')' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py", line 196, in _score
+    return super()._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\containers\metrics\regression.py", line 233, in mean_absolute_percentage_error
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,837:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\model_selection\_validation.py:1011: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to 0.0. Details: 
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 137, in __call__
+    score = scorer._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 207, in mean_absolute_error
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,837:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\model_selection\_validation.py:1011: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to 0.0. Details: 
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 137, in __call__
+    score = scorer._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 497, in mean_squared_error
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,838:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\model_selection\_validation.py:1011: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to 0.0. Details: 
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 137, in __call__
+    score = scorer._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 572, in root_mean_squared_error
+    mean_squared_error(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 186, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 497, in mean_squared_error
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,838:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\model_selection\_validation.py:1011: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to 0.0. Details: 
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 137, in __call__
+    score = scorer._score(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 1180, in r2_score
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py", line 104, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2025-04-19 17:39:02,854:INFO:Calculating mean and std
+2025-04-19 17:39:02,856:INFO:Creating metrics dataframe
+2025-04-19 17:39:02,860:INFO:Uploading results into container
+2025-04-19 17:39:02,861:INFO:Uploading model into container now
+2025-04-19 17:39:02,861:INFO:_master_model_container: 6
+2025-04-19 17:39:02,861:INFO:_display_container: 2
+2025-04-19 17:39:02,862:INFO:Lars(random_state=123)
+2025-04-19 17:39:02,862:INFO:create_model() successfully completed......................................
+2025-04-19 17:39:03,068:ERROR:create_model() for Lars(random_state=123) raised an exception or returned all 0.0:
+2025-04-19 17:39:03,069:ERROR:Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pycaret_experiment\supervised_experiment.py", line 796, in compare_models
+    assert (
+AssertionError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pycaret_experiment\supervised_experiment.py", line 817, in compare_models
+    assert (
+AssertionError
+
+2025-04-19 17:39:03,069:INFO:Initializing Lasso Least Angle Regression
+2025-04-19 17:39:03,069:INFO:Total runtime is 0.1659659345944723 minutes
+2025-04-19 17:39:03,069:INFO:SubProcess create_model() called ==================================
+2025-04-19 17:39:03,070:INFO:Initializing create_model()
+2025-04-19 17:39:03,070:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001EFEAC96FB0>, estimator=llar, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001F0160FB3D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-04-19 17:39:03,070:INFO:Checking exceptions
+2025-04-19 17:39:03,070:INFO:Importing libraries
+2025-04-19 17:39:03,070:INFO:Copying training dataset
+2025-04-19 17:39:03,101:INFO:Defining folds
+2025-04-19 17:39:03,101:INFO:Declaring metric variables
+2025-04-19 17:39:03,102:INFO:Importing untrained model
+2025-04-19 17:39:03,103:INFO:Lasso Least Angle Regression Imported successfully
+2025-04-19 17:39:03,103:INFO:Starting cross validation
+2025-04-19 17:39:03,105:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-19 17:39:03,353:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-04-19 17:39:03,354:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-04-19 17:39:03,388:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:03,391:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:03,399:INFO:Calculating mean and std
+2025-04-19 17:39:03,401:INFO:Creating metrics dataframe
+2025-04-19 17:39:03,404:INFO:Uploading results into container
+2025-04-19 17:39:03,405:INFO:Uploading model into container now
+2025-04-19 17:39:03,405:INFO:_master_model_container: 7
+2025-04-19 17:39:03,405:INFO:_display_container: 2
+2025-04-19 17:39:03,406:INFO:LassoLars(random_state=123)
+2025-04-19 17:39:03,406:INFO:create_model() successfully completed......................................
+2025-04-19 17:39:03,614:INFO:SubProcess create_model() end ==================================
+2025-04-19 17:39:03,614:INFO:Creating metrics dataframe
+2025-04-19 17:39:03,622:INFO:Initializing Orthogonal Matching Pursuit
+2025-04-19 17:39:03,622:INFO:Total runtime is 0.17518472671508792 minutes
+2025-04-19 17:39:03,622:INFO:SubProcess create_model() called ==================================
+2025-04-19 17:39:03,623:INFO:Initializing create_model()
+2025-04-19 17:39:03,623:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001EFEAC96FB0>, estimator=omp, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001F0160FB3D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-04-19 17:39:03,623:INFO:Checking exceptions
+2025-04-19 17:39:03,623:INFO:Importing libraries
+2025-04-19 17:39:03,624:INFO:Copying training dataset
+2025-04-19 17:39:03,656:INFO:Defining folds
+2025-04-19 17:39:03,656:INFO:Declaring metric variables
+2025-04-19 17:39:03,656:INFO:Importing untrained model
+2025-04-19 17:39:03,657:INFO:Orthogonal Matching Pursuit Imported successfully
+2025-04-19 17:39:03,658:INFO:Starting cross validation
+2025-04-19 17:39:03,661:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-19 17:39:03,928:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-04-19 17:39:03,929:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-04-19 17:39:03,966:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:03,978:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:03,985:INFO:Calculating mean and std
+2025-04-19 17:39:03,987:INFO:Creating metrics dataframe
+2025-04-19 17:39:03,990:INFO:Uploading results into container
+2025-04-19 17:39:03,991:INFO:Uploading model into container now
+2025-04-19 17:39:03,992:INFO:_master_model_container: 8
+2025-04-19 17:39:03,992:INFO:_display_container: 2
+2025-04-19 17:39:03,992:INFO:OrthogonalMatchingPursuit()
+2025-04-19 17:39:03,992:INFO:create_model() successfully completed......................................
+2025-04-19 17:39:04,245:INFO:SubProcess create_model() end ==================================
+2025-04-19 17:39:04,245:INFO:Creating metrics dataframe
+2025-04-19 17:39:04,250:INFO:Initializing Bayesian Ridge
+2025-04-19 17:39:04,250:INFO:Total runtime is 0.18565044005711875 minutes
+2025-04-19 17:39:04,251:INFO:SubProcess create_model() called ==================================
+2025-04-19 17:39:04,251:INFO:Initializing create_model()
+2025-04-19 17:39:04,251:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001EFEAC96FB0>, estimator=br, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001F0160FB3D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-04-19 17:39:04,251:INFO:Checking exceptions
+2025-04-19 17:39:04,251:INFO:Importing libraries
+2025-04-19 17:39:04,251:INFO:Copying training dataset
+2025-04-19 17:39:04,278:INFO:Defining folds
+2025-04-19 17:39:04,278:INFO:Declaring metric variables
+2025-04-19 17:39:04,278:INFO:Importing untrained model
+2025-04-19 17:39:04,279:INFO:Bayesian Ridge Imported successfully
+2025-04-19 17:39:04,279:INFO:Starting cross validation
+2025-04-19 17:39:04,283:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-19 17:39:04,481:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-04-19 17:39:04,483:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-04-19 17:39:04,529:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:04,545:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:04,549:INFO:Calculating mean and std
+2025-04-19 17:39:04,551:INFO:Creating metrics dataframe
+2025-04-19 17:39:04,554:INFO:Uploading results into container
+2025-04-19 17:39:04,555:INFO:Uploading model into container now
+2025-04-19 17:39:04,556:INFO:_master_model_container: 9
+2025-04-19 17:39:04,556:INFO:_display_container: 2
+2025-04-19 17:39:04,556:INFO:BayesianRidge()
+2025-04-19 17:39:04,556:INFO:create_model() successfully completed......................................
+2025-04-19 17:39:04,764:INFO:SubProcess create_model() end ==================================
+2025-04-19 17:39:04,764:INFO:Creating metrics dataframe
+2025-04-19 17:39:04,792:INFO:Initializing Passive Aggressive Regressor
+2025-04-19 17:39:04,792:INFO:Total runtime is 0.1946711619695028 minutes
+2025-04-19 17:39:04,793:INFO:SubProcess create_model() called ==================================
+2025-04-19 17:39:04,794:INFO:Initializing create_model()
+2025-04-19 17:39:04,794:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001EFEAC96FB0>, estimator=par, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001F0160FB3D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-04-19 17:39:04,794:INFO:Checking exceptions
+2025-04-19 17:39:04,794:INFO:Importing libraries
+2025-04-19 17:39:04,794:INFO:Copying training dataset
+2025-04-19 17:39:04,841:INFO:Defining folds
+2025-04-19 17:39:04,841:INFO:Declaring metric variables
+2025-04-19 17:39:04,841:INFO:Importing untrained model
+2025-04-19 17:39:04,842:INFO:Passive Aggressive Regressor Imported successfully
+2025-04-19 17:39:04,843:INFO:Starting cross validation
+2025-04-19 17:39:04,845:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-19 17:39:05,080:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-04-19 17:39:05,081:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-04-19 17:39:05,121:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:05,133:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:05,148:INFO:Calculating mean and std
+2025-04-19 17:39:05,150:INFO:Creating metrics dataframe
+2025-04-19 17:39:05,153:INFO:Uploading results into container
+2025-04-19 17:39:05,154:INFO:Uploading model into container now
+2025-04-19 17:39:05,154:INFO:_master_model_container: 10
+2025-04-19 17:39:05,154:INFO:_display_container: 2
+2025-04-19 17:39:05,155:INFO:PassiveAggressiveRegressor(random_state=123)
+2025-04-19 17:39:05,155:INFO:create_model() successfully completed......................................
+2025-04-19 17:39:05,364:INFO:SubProcess create_model() end ==================================
+2025-04-19 17:39:05,365:INFO:Creating metrics dataframe
+2025-04-19 17:39:05,372:INFO:Initializing Huber Regressor
+2025-04-19 17:39:05,373:INFO:Total runtime is 0.20436820189158125 minutes
+2025-04-19 17:39:05,373:INFO:SubProcess create_model() called ==================================
+2025-04-19 17:39:05,374:INFO:Initializing create_model()
+2025-04-19 17:39:05,374:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001EFEAC96FB0>, estimator=huber, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001F0160FB3D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-04-19 17:39:05,374:INFO:Checking exceptions
+2025-04-19 17:39:05,374:INFO:Importing libraries
+2025-04-19 17:39:05,374:INFO:Copying training dataset
+2025-04-19 17:39:05,415:INFO:Defining folds
+2025-04-19 17:39:05,415:INFO:Declaring metric variables
+2025-04-19 17:39:05,415:INFO:Importing untrained model
+2025-04-19 17:39:05,416:INFO:Huber Regressor Imported successfully
+2025-04-19 17:39:05,416:INFO:Starting cross validation
+2025-04-19 17:39:05,418:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-19 17:39:05,596:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_huber.py:342: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2025-04-19 17:39:05,644:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_huber.py:342: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2025-04-19 17:39:05,669:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_huber.py:342: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2025-04-19 17:39:05,688:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-04-19 17:39:05,689:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-04-19 17:39:05,708:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_huber.py:342: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2025-04-19 17:39:05,720:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_huber.py:342: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2025-04-19 17:39:05,725:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_huber.py:342: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2025-04-19 17:39:05,741:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:05,754:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:05,759:INFO:Calculating mean and std
+2025-04-19 17:39:05,760:INFO:Creating metrics dataframe
+2025-04-19 17:39:05,763:INFO:Uploading results into container
+2025-04-19 17:39:05,764:INFO:Uploading model into container now
+2025-04-19 17:39:05,765:INFO:_master_model_container: 11
+2025-04-19 17:39:05,765:INFO:_display_container: 2
+2025-04-19 17:39:05,765:INFO:HuberRegressor()
+2025-04-19 17:39:05,765:INFO:create_model() successfully completed......................................
+2025-04-19 17:39:05,980:INFO:SubProcess create_model() end ==================================
+2025-04-19 17:39:05,981:INFO:Creating metrics dataframe
+2025-04-19 17:39:05,987:INFO:Initializing K Neighbors Regressor
+2025-04-19 17:39:05,987:INFO:Total runtime is 0.2145964066187541 minutes
+2025-04-19 17:39:05,988:INFO:SubProcess create_model() called ==================================
+2025-04-19 17:39:05,988:INFO:Initializing create_model()
+2025-04-19 17:39:05,988:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001EFEAC96FB0>, estimator=knn, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001F0160FB3D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-04-19 17:39:05,988:INFO:Checking exceptions
+2025-04-19 17:39:05,988:INFO:Importing libraries
+2025-04-19 17:39:05,988:INFO:Copying training dataset
+2025-04-19 17:39:06,014:INFO:Defining folds
+2025-04-19 17:39:06,015:INFO:Declaring metric variables
+2025-04-19 17:39:06,015:INFO:Importing untrained model
+2025-04-19 17:39:06,016:INFO:K Neighbors Regressor Imported successfully
+2025-04-19 17:39:06,016:INFO:Starting cross validation
+2025-04-19 17:39:06,018:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-19 17:39:06,661:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-04-19 17:39:06,661:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-04-19 17:39:06,676:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:06,689:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:06,700:INFO:Calculating mean and std
+2025-04-19 17:39:06,702:INFO:Creating metrics dataframe
+2025-04-19 17:39:06,705:INFO:Uploading results into container
+2025-04-19 17:39:06,706:INFO:Uploading model into container now
+2025-04-19 17:39:06,706:INFO:_master_model_container: 12
+2025-04-19 17:39:06,706:INFO:_display_container: 2
+2025-04-19 17:39:06,707:INFO:KNeighborsRegressor(n_jobs=-1)
+2025-04-19 17:39:06,707:INFO:create_model() successfully completed......................................
+2025-04-19 17:39:06,923:INFO:SubProcess create_model() end ==================================
+2025-04-19 17:39:06,923:INFO:Creating metrics dataframe
+2025-04-19 17:39:06,928:INFO:Initializing Decision Tree Regressor
+2025-04-19 17:39:06,929:INFO:Total runtime is 0.23028828303019208 minutes
+2025-04-19 17:39:06,929:INFO:SubProcess create_model() called ==================================
+2025-04-19 17:39:06,929:INFO:Initializing create_model()
+2025-04-19 17:39:06,929:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001EFEAC96FB0>, estimator=dt, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001F0160FB3D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-04-19 17:39:06,930:INFO:Checking exceptions
+2025-04-19 17:39:06,930:INFO:Importing libraries
+2025-04-19 17:39:06,930:INFO:Copying training dataset
+2025-04-19 17:39:06,958:INFO:Defining folds
+2025-04-19 17:39:06,958:INFO:Declaring metric variables
+2025-04-19 17:39:06,958:INFO:Importing untrained model
+2025-04-19 17:39:06,959:INFO:Decision Tree Regressor Imported successfully
+2025-04-19 17:39:06,959:INFO:Starting cross validation
+2025-04-19 17:39:06,961:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-19 17:39:07,171:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-04-19 17:39:07,172:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-04-19 17:39:07,211:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:07,225:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:07,236:INFO:Calculating mean and std
+2025-04-19 17:39:07,238:INFO:Creating metrics dataframe
+2025-04-19 17:39:07,241:INFO:Uploading results into container
+2025-04-19 17:39:07,242:INFO:Uploading model into container now
+2025-04-19 17:39:07,242:INFO:_master_model_container: 13
+2025-04-19 17:39:07,243:INFO:_display_container: 2
+2025-04-19 17:39:07,243:INFO:DecisionTreeRegressor(random_state=123)
+2025-04-19 17:39:07,243:INFO:create_model() successfully completed......................................
+2025-04-19 17:39:07,483:INFO:SubProcess create_model() end ==================================
+2025-04-19 17:39:07,484:INFO:Creating metrics dataframe
+2025-04-19 17:39:07,489:INFO:Initializing Random Forest Regressor
+2025-04-19 17:39:07,490:INFO:Total runtime is 0.2396490812301636 minutes
+2025-04-19 17:39:07,490:INFO:SubProcess create_model() called ==================================
+2025-04-19 17:39:07,491:INFO:Initializing create_model()
+2025-04-19 17:39:07,491:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001EFEAC96FB0>, estimator=rf, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001F0160FB3D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-04-19 17:39:07,491:INFO:Checking exceptions
+2025-04-19 17:39:07,491:INFO:Importing libraries
+2025-04-19 17:39:07,491:INFO:Copying training dataset
+2025-04-19 17:39:07,516:INFO:Defining folds
+2025-04-19 17:39:07,516:INFO:Declaring metric variables
+2025-04-19 17:39:07,517:INFO:Importing untrained model
+2025-04-19 17:39:07,517:INFO:Random Forest Regressor Imported successfully
+2025-04-19 17:39:07,518:INFO:Starting cross validation
+2025-04-19 17:39:07,520:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-19 17:39:08,222:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-04-19 17:39:08,223:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-04-19 17:39:08,264:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:08,295:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:08,304:INFO:Calculating mean and std
+2025-04-19 17:39:08,306:INFO:Creating metrics dataframe
+2025-04-19 17:39:08,309:INFO:Uploading results into container
+2025-04-19 17:39:08,310:INFO:Uploading model into container now
+2025-04-19 17:39:08,311:INFO:_master_model_container: 14
+2025-04-19 17:39:08,311:INFO:_display_container: 2
+2025-04-19 17:39:08,312:INFO:RandomForestRegressor(n_jobs=-1, random_state=123)
+2025-04-19 17:39:08,312:INFO:create_model() successfully completed......................................
+2025-04-19 17:39:08,525:INFO:SubProcess create_model() end ==================================
+2025-04-19 17:39:08,525:INFO:Creating metrics dataframe
+2025-04-19 17:39:08,532:INFO:Initializing Extra Trees Regressor
+2025-04-19 17:39:08,532:INFO:Total runtime is 0.2570151487986247 minutes
+2025-04-19 17:39:08,532:INFO:SubProcess create_model() called ==================================
+2025-04-19 17:39:08,533:INFO:Initializing create_model()
+2025-04-19 17:39:08,533:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001EFEAC96FB0>, estimator=et, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001F0160FB3D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-04-19 17:39:08,533:INFO:Checking exceptions
+2025-04-19 17:39:08,533:INFO:Importing libraries
+2025-04-19 17:39:08,533:INFO:Copying training dataset
+2025-04-19 17:39:08,559:INFO:Defining folds
+2025-04-19 17:39:08,560:INFO:Declaring metric variables
+2025-04-19 17:39:08,560:INFO:Importing untrained model
+2025-04-19 17:39:08,561:INFO:Extra Trees Regressor Imported successfully
+2025-04-19 17:39:08,562:INFO:Starting cross validation
+2025-04-19 17:39:08,565:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-19 17:39:09,119:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-04-19 17:39:09,119:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-04-19 17:39:09,177:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:09,224:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:09,232:INFO:Calculating mean and std
+2025-04-19 17:39:09,234:INFO:Creating metrics dataframe
+2025-04-19 17:39:09,238:INFO:Uploading results into container
+2025-04-19 17:39:09,239:INFO:Uploading model into container now
+2025-04-19 17:39:09,239:INFO:_master_model_container: 15
+2025-04-19 17:39:09,239:INFO:_display_container: 2
+2025-04-19 17:39:09,240:INFO:ExtraTreesRegressor(n_jobs=-1, random_state=123)
+2025-04-19 17:39:09,240:INFO:create_model() successfully completed......................................
+2025-04-19 17:39:09,462:INFO:SubProcess create_model() end ==================================
+2025-04-19 17:39:09,462:INFO:Creating metrics dataframe
+2025-04-19 17:39:09,469:INFO:Initializing AdaBoost Regressor
+2025-04-19 17:39:09,469:INFO:Total runtime is 0.27262625296910603 minutes
+2025-04-19 17:39:09,470:INFO:SubProcess create_model() called ==================================
+2025-04-19 17:39:09,470:INFO:Initializing create_model()
+2025-04-19 17:39:09,471:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001EFEAC96FB0>, estimator=ada, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001F0160FB3D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-04-19 17:39:09,471:INFO:Checking exceptions
+2025-04-19 17:39:09,471:INFO:Importing libraries
+2025-04-19 17:39:09,471:INFO:Copying training dataset
+2025-04-19 17:39:09,518:INFO:Defining folds
+2025-04-19 17:39:09,518:INFO:Declaring metric variables
+2025-04-19 17:39:09,519:INFO:Importing untrained model
+2025-04-19 17:39:09,519:INFO:AdaBoost Regressor Imported successfully
+2025-04-19 17:39:09,520:INFO:Starting cross validation
+2025-04-19 17:39:09,522:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-19 17:39:09,950:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-04-19 17:39:09,950:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-04-19 17:39:09,966:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:09,969:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:09,983:INFO:Calculating mean and std
+2025-04-19 17:39:09,985:INFO:Creating metrics dataframe
+2025-04-19 17:39:09,989:INFO:Uploading results into container
+2025-04-19 17:39:09,990:INFO:Uploading model into container now
+2025-04-19 17:39:09,991:INFO:_master_model_container: 16
+2025-04-19 17:39:09,991:INFO:_display_container: 2
+2025-04-19 17:39:09,991:INFO:AdaBoostRegressor(random_state=123)
+2025-04-19 17:39:09,991:INFO:create_model() successfully completed......................................
+2025-04-19 17:39:10,199:INFO:SubProcess create_model() end ==================================
+2025-04-19 17:39:10,199:INFO:Creating metrics dataframe
+2025-04-19 17:39:10,206:INFO:Initializing Gradient Boosting Regressor
+2025-04-19 17:39:10,206:INFO:Total runtime is 0.2849175016085307 minutes
+2025-04-19 17:39:10,206:INFO:SubProcess create_model() called ==================================
+2025-04-19 17:39:10,207:INFO:Initializing create_model()
+2025-04-19 17:39:10,207:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001EFEAC96FB0>, estimator=gbr, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001F0160FB3D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-04-19 17:39:10,207:INFO:Checking exceptions
+2025-04-19 17:39:10,207:INFO:Importing libraries
+2025-04-19 17:39:10,208:INFO:Copying training dataset
+2025-04-19 17:39:10,235:INFO:Defining folds
+2025-04-19 17:39:10,235:INFO:Declaring metric variables
+2025-04-19 17:39:10,235:INFO:Importing untrained model
+2025-04-19 17:39:10,236:INFO:Gradient Boosting Regressor Imported successfully
+2025-04-19 17:39:10,236:INFO:Starting cross validation
+2025-04-19 17:39:10,238:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-19 17:39:10,662:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-04-19 17:39:10,662:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-04-19 17:39:10,676:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:10,678:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:10,692:INFO:Calculating mean and std
+2025-04-19 17:39:10,694:INFO:Creating metrics dataframe
+2025-04-19 17:39:10,697:INFO:Uploading results into container
+2025-04-19 17:39:10,698:INFO:Uploading model into container now
+2025-04-19 17:39:10,698:INFO:_master_model_container: 17
+2025-04-19 17:39:10,698:INFO:_display_container: 2
+2025-04-19 17:39:10,699:INFO:GradientBoostingRegressor(random_state=123)
+2025-04-19 17:39:10,699:INFO:create_model() successfully completed......................................
+2025-04-19 17:39:10,925:INFO:SubProcess create_model() end ==================================
+2025-04-19 17:39:10,926:INFO:Creating metrics dataframe
+2025-04-19 17:39:10,931:INFO:Initializing Extreme Gradient Boosting
+2025-04-19 17:39:10,931:INFO:Total runtime is 0.296994694073995 minutes
+2025-04-19 17:39:10,931:INFO:SubProcess create_model() called ==================================
+2025-04-19 17:39:10,932:INFO:Initializing create_model()
+2025-04-19 17:39:10,932:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001EFEAC96FB0>, estimator=xgboost, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001F0160FB3D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-04-19 17:39:10,932:INFO:Checking exceptions
+2025-04-19 17:39:10,932:INFO:Importing libraries
+2025-04-19 17:39:10,932:INFO:Copying training dataset
+2025-04-19 17:39:10,961:INFO:Defining folds
+2025-04-19 17:39:10,961:INFO:Declaring metric variables
+2025-04-19 17:39:10,961:INFO:Importing untrained model
+2025-04-19 17:39:10,963:INFO:Extreme Gradient Boosting Imported successfully
+2025-04-19 17:39:10,963:INFO:Starting cross validation
+2025-04-19 17:39:10,965:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-19 17:39:14,570:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:14,635:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:14,636:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-04-19 17:39:14,637:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-04-19 17:39:14,673:INFO:Calculating mean and std
+2025-04-19 17:39:14,674:INFO:Creating metrics dataframe
+2025-04-19 17:39:14,678:INFO:Uploading results into container
+2025-04-19 17:39:14,679:INFO:Uploading model into container now
+2025-04-19 17:39:14,679:INFO:_master_model_container: 18
+2025-04-19 17:39:14,680:INFO:_display_container: 2
+2025-04-19 17:39:14,681:INFO:XGBRegressor(base_score=None, booster='gbtree', callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, gamma=None,
+             gpu_id=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=None, max_bin=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, n_estimators=100, n_jobs=-1,
+             num_parallel_tree=None, predictor=None, random_state=123,
+             reg_alpha=None, reg_lambda=None, ...)
+2025-04-19 17:39:14,681:INFO:create_model() successfully completed......................................
+2025-04-19 17:39:14,962:INFO:SubProcess create_model() end ==================================
+2025-04-19 17:39:14,962:INFO:Creating metrics dataframe
+2025-04-19 17:39:14,969:INFO:Initializing Light Gradient Boosting Machine
+2025-04-19 17:39:14,970:INFO:Total runtime is 0.36430567105611167 minutes
+2025-04-19 17:39:14,971:INFO:SubProcess create_model() called ==================================
+2025-04-19 17:39:14,971:INFO:Initializing create_model()
+2025-04-19 17:39:14,972:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001EFEAC96FB0>, estimator=lightgbm, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001F0160FB3D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-04-19 17:39:14,972:INFO:Checking exceptions
+2025-04-19 17:39:14,972:INFO:Importing libraries
+2025-04-19 17:39:14,972:INFO:Copying training dataset
+2025-04-19 17:39:15,026:INFO:Defining folds
+2025-04-19 17:39:15,026:INFO:Declaring metric variables
+2025-04-19 17:39:15,027:INFO:Importing untrained model
+2025-04-19 17:39:15,028:INFO:Light Gradient Boosting Machine Imported successfully
+2025-04-19 17:39:15,029:INFO:Starting cross validation
+2025-04-19 17:39:15,031:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-19 17:39:16,179:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:16,179:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:16,255:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-04-19 17:39:16,255:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-04-19 17:39:16,273:INFO:Calculating mean and std
+2025-04-19 17:39:16,274:INFO:Creating metrics dataframe
+2025-04-19 17:39:16,279:INFO:Uploading results into container
+2025-04-19 17:39:16,280:INFO:Uploading model into container now
+2025-04-19 17:39:16,281:INFO:_master_model_container: 19
+2025-04-19 17:39:16,281:INFO:_display_container: 2
+2025-04-19 17:39:16,283:INFO:LGBMRegressor(n_jobs=-1, random_state=123)
+2025-04-19 17:39:16,283:INFO:create_model() successfully completed......................................
+2025-04-19 17:39:16,500:INFO:SubProcess create_model() end ==================================
+2025-04-19 17:39:16,500:INFO:Creating metrics dataframe
+2025-04-19 17:39:16,505:INFO:Initializing Dummy Regressor
+2025-04-19 17:39:16,506:INFO:Total runtime is 0.3899125973383586 minutes
+2025-04-19 17:39:16,506:INFO:SubProcess create_model() called ==================================
+2025-04-19 17:39:16,506:INFO:Initializing create_model()
+2025-04-19 17:39:16,506:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001EFEAC96FB0>, estimator=dummy, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001F0160FB3D0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-04-19 17:39:16,507:INFO:Checking exceptions
+2025-04-19 17:39:16,507:INFO:Importing libraries
+2025-04-19 17:39:16,507:INFO:Copying training dataset
+2025-04-19 17:39:16,534:INFO:Defining folds
+2025-04-19 17:39:16,534:INFO:Declaring metric variables
+2025-04-19 17:39:16,535:INFO:Importing untrained model
+2025-04-19 17:39:16,535:INFO:Dummy Regressor Imported successfully
+2025-04-19 17:39:16,536:INFO:Starting cross validation
+2025-04-19 17:39:16,538:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-19 17:39:16,784:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-04-19 17:39:16,785:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-04-19 17:39:16,813:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:16,826:WARNING:C:\Users\lucia\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_regression.py:1187: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+2025-04-19 17:39:16,838:INFO:Calculating mean and std
+2025-04-19 17:39:16,839:INFO:Creating metrics dataframe
+2025-04-19 17:39:16,842:INFO:Uploading results into container
+2025-04-19 17:39:16,844:INFO:Uploading model into container now
+2025-04-19 17:39:16,844:INFO:_master_model_container: 20
+2025-04-19 17:39:16,844:INFO:_display_container: 2
+2025-04-19 17:39:16,844:INFO:DummyRegressor()
+2025-04-19 17:39:16,844:INFO:create_model() successfully completed......................................
+2025-04-19 17:39:17,072:INFO:SubProcess create_model() end ==================================
+2025-04-19 17:39:17,072:INFO:Creating metrics dataframe
+2025-04-19 17:39:17,080:INFO:Initializing create_model()
+2025-04-19 17:39:17,081:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001EFEAC96FB0>, estimator=LinearRegression(n_jobs=-1), fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-04-19 17:39:17,081:INFO:Checking exceptions
+2025-04-19 17:39:17,082:INFO:Importing libraries
+2025-04-19 17:39:17,082:INFO:Copying training dataset
+2025-04-19 17:39:17,119:INFO:Defining folds
+2025-04-19 17:39:17,119:INFO:Declaring metric variables
+2025-04-19 17:39:17,119:INFO:Importing untrained model
+2025-04-19 17:39:17,120:INFO:Declaring custom model
+2025-04-19 17:39:17,121:INFO:Linear Regression Imported successfully
+2025-04-19 17:39:17,124:INFO:Cross validation set to False
+2025-04-19 17:39:17,124:INFO:Fitting Model
+2025-04-19 17:39:17,168:INFO:LinearRegression(n_jobs=-1)
+2025-04-19 17:39:17,168:INFO:create_model() successfully completed......................................
+2025-04-19 17:39:17,444:INFO:_master_model_container: 20
+2025-04-19 17:39:17,444:INFO:_display_container: 2
+2025-04-19 17:39:17,445:INFO:LinearRegression(n_jobs=-1)
+2025-04-19 17:39:17,445:INFO:compare_models() successfully completed......................................
+2025-04-19 17:39:17,456:INFO:Initializing save_model()
+2025-04-19 17:39:17,456:INFO:save_model(model=LinearRegression(n_jobs=-1), model_name=mvc_kaggle/view/relatorios\best_model, prep_pipe_=Pipeline(memory=FastMemory(location=C:\Users\lucia\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['grid', 'position', 'year',
+                                             'fastestLapTime',
+                                             'fastestLapSpeed', 'q1', 'q2',
+                                             'q3',
+                                             'name_circuits_Adelaide Street '
+                                             'Circuit',
+                                             'name_circuits_Albert Park Grand '
+                                             'Prix Circuit',
+                                             'name_circuits_Autodromo Enzo e '
+                                             'Dino Ferrari',
+                                             'name_circui...
+                                             'name_circuits_Suzuka Circuit',
+                                             'name_circuits_Yas Marina Circuit',
+                                             'driverRef_alguersuari',
+                                             'driverRef_angelis',
+                                             'driverRef_barrichello',
+                                             'driverRef_berger', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames()))]), verbose=True, use_case=MLUsecase.REGRESSION, kwargs={})
+2025-04-19 17:39:17,456:INFO:Adding model into prep_pipe
+2025-04-19 17:39:17,487:INFO:mvc_kaggle/view/relatorios\best_model.pkl saved in current working directory
+2025-04-19 17:39:17,525:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['grid', 'position', 'year',
+                                             'fastestLapTime',
+                                             'fastestLapSpeed', 'q1', 'q2',
+                                             'q3',
+                                             'name_circuits_Adelaide Street '
+                                             'Circuit',
+                                             'name_circuits_Albert Park Grand '
+                                             'Prix Circuit',
+                                             'name_circuits_Autodromo Enzo e '
+                                             'Dino Ferrari',
+                                             'name_circuits_Autódromo do '
+                                             'Estoril',
+                                             'name_circuits_...
+                                             'driverRef_alguersuari',
+                                             'driverRef_angelis',
+                                             'driverRef_barrichello',
+                                             'driverRef_berger', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LinearRegression(n_jobs=-1))])
+2025-04-19 17:39:17,525:INFO:save_model() successfully completed......................................
+2025-04-19 23:35:32,446:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-19 23:35:32,447:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-19 23:35:32,448:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-19 23:35:32,448:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-19 23:38:14,909:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-19 23:38:14,910:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-19 23:38:14,911:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-19 23:38:14,911:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-19 23:41:38,542:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-19 23:41:38,544:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-19 23:41:38,544:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-19 23:41:38,544:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-19 23:42:27,994:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-19 23:42:27,994:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-19 23:42:27,995:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-19 23:42:27,995:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.

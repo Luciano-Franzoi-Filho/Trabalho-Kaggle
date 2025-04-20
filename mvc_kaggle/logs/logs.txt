@@ -794,3 +794,46 @@ weighted avg       1.00      1.00      1.00      5352
 2025-04-19 17:29:16,125 - INFO - Numpy backend loaded 1.26.4
 2025-04-19 17:29:16,137 - INFO - Pyspark backend NOT loaded
 2025-04-19 17:29:16,138 - INFO - Python backend loaded
+2025-04-19 17:34:25,506 - INFO - Pandas backend loaded 2.1.4
+2025-04-19 17:34:25,526 - INFO - Numpy backend loaded 1.26.4
+2025-04-19 17:34:25,536 - INFO - Pyspark backend NOT loaded
+2025-04-19 17:34:25,537 - INFO - Python backend loaded
+2025-04-19 17:35:17,641 - INFO - Pandas backend loaded 2.1.4
+2025-04-19 17:35:17,675 - INFO - Numpy backend loaded 1.26.4
+2025-04-19 17:35:17,678 - INFO - Pyspark backend NOT loaded
+2025-04-19 17:35:17,678 - INFO - Python backend loaded
+2025-04-19 17:35:20,582 - INFO - Baixando dataset rohanrao/formula-1-world-championship-1950-2020 para mvc_kaggle/model/Data/Raw...
+2025-04-19 17:35:24,931 - INFO - Download concluído e arquivos extraídos com sucesso!
+2025-04-19 17:35:25,861 - INFO - Arquivos carregados com sucesso!
+2025-04-19 17:35:25,862 - INFO - Iniciando o processamento dos datasets...
+2025-04-19 17:35:27,917 - INFO - Dataset final salvo com sucesso!
+2025-04-19 17:35:27,918 - INFO - Processamento concluído com sucesso!
+2025-04-19 17:35:27,946 - INFO - Iniciando análises para o diretório: mvc_kaggle/model/Data/Processed...
+2025-04-19 17:35:28,049 - INFO - Processando DatasetF1processado (26759 linhas, 15 colunas)
+2025-04-19 17:35:52,164 - INFO - Relatório AutoViz gerado para DatasetF1processado.
+2025-04-19 17:38:09,014 - INFO - Relatório YData Profiling salvo em mvc_kaggle/view/relatorios\ydata_DatasetF1processado.html.
+2025-04-19 17:38:19,651 - INFO - D-Tale iniciado para DatasetF1processado.
+2025-04-19 17:38:19,653 - INFO - Todas as análises foram concluídas com sucesso!
+2025-04-19 23:35:27,747 - INFO - Pandas backend loaded 2.1.4
+2025-04-19 23:35:27,807 - INFO - Numpy backend loaded 1.26.4
+2025-04-19 23:35:27,810 - INFO - Pyspark backend NOT loaded
+2025-04-19 23:35:27,811 - INFO - Python backend loaded
+2025-04-19 23:35:36,725 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-19 23:35:36,738 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-19 23:38:12,345 - INFO - Pandas backend loaded 2.1.4
+2025-04-19 23:38:12,363 - INFO - Numpy backend loaded 1.26.4
+2025-04-19 23:38:12,368 - INFO - Pyspark backend NOT loaded
+2025-04-19 23:38:12,369 - INFO - Python backend loaded
+2025-04-19 23:38:19,792 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-19 23:38:19,802 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-19 23:41:35,879 - INFO - Pandas backend loaded 2.1.4
+2025-04-19 23:41:35,904 - INFO - Numpy backend loaded 1.26.4
+2025-04-19 23:41:35,907 - INFO - Pyspark backend NOT loaded
+2025-04-19 23:41:35,908 - INFO - Python backend loaded
+2025-04-19 23:41:43,064 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-19 23:42:25,278 - INFO - Pandas backend loaded 2.1.4
+2025-04-19 23:42:25,310 - INFO - Numpy backend loaded 1.26.4
+2025-04-19 23:42:25,313 - INFO - Pyspark backend NOT loaded
+2025-04-19 23:42:25,314 - INFO - Python backend loaded
+2025-04-19 23:42:32,295 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-19 23:42:32,306 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
